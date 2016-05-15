@@ -1,0 +1,2347 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0023)http://www.oschina.net/ -->
+<html lang="zh-CN" xml:lang="zh-CN" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <link rel="shortcut icon" type="image/x-icon" href="http://www.oschina.net/img/favicon.ico?t=1451961935000">
+  <title>开源中国 - 找到您想要的开源项目，分享和交流</title>
+  <meta name="Keywords" content="开源,OSC,开源软件,开源硬件,开源网站,开源社区,java开源,perl开源,python开源,ruby开源,php开源,开源项目,开源代码">
+  <meta name="Description" content="开源中国 www.oschina.net 是目前中国最大的开源技术社区。我们传播开源的理念，推广开源项目，为 IT 开发者提供了一个发现、使用、并交流开源技术的平台。目前开源中国社区已收录超过两万款开源软件。">
+    <link rel="stylesheet" href="./osc_files/channel.css" type="text/css" media="screen">
+  <link rel="stylesheet" type="text/css" href="./osc_files/jquery.fancybox-1.3.4.css" media="screen">
+  <link rel="alternate" type="application/rss+xml" title="最新开源项目" href="http://www.oschina.net/project/rss">
+  <link rel="alternate" type="application/rss+xml" title="最新开源资讯" href="http://www.oschina.net/news/rss">
+  <link rel="alternate" type="application/rss+xml" title="最新问题列表" href="http://www.oschina.net/question/rss">
+  <link rel="alternate" type="application/rss+xml" title="最新翻译列表" href="http://www.oschina.net/translate/rss">
+  <link rel="alternate" type="application/rss+xml" title="最新博客列表" href="http://www.oschina.net/blog/rss">
+  <link rel="alternate" type="application/rss+xml" title="推荐博客列表" href="http://www.oschina.net/blog/rss?show=more">
+  <link rel="alternate" type="application/rss+xml" title="推荐软件列表" href="http://www.oschina.net/project/rss?show=recomms">
+  <link rel="alternate" type="application/rss+xml" title="最新代码分享列表" href="http://www.oschina.net/code/rss">
+  <link rel="alternate" type="application/rss+xml" title="开源中国 - 源码列表" href="http://www.oschina.net/code/source_rss">
+    <!--添加emoji支持-->
+    <link rel="stylesheet" type="text/css" href="./osc_files/nature.css">
+    <link rel="stylesheet" type="text/css" href="./osc_files/object.css">
+    <link rel="stylesheet" type="text/css" href="./osc_files/people.css">
+    <link rel="stylesheet" type="text/css" href="./osc_files/place.css">
+    <link rel="stylesheet" type="text/css" href="./osc_files/Sysmbols.css">
+    <link rel="stylesheet" type="text/css" href="./osc_files/twemoji.css">
+
+  <script type="text/javascript" src="./osc_files/jquery-1.7.1.min.js"></script>
+  <script type="text/javascript" src="./osc_files/jquery.form.js"></script>
+  <script type="text/javascript" src="./osc_files/jquery.fancybox-fixed.js"></script>
+    <link rel="stylesheet" href="./osc_files/tip-yellowsimple.css" type="text/css">
+  <script type="text/javascript" src="./osc_files/jquery.poshytip.min.js"></script>
+  <script type="text/javascript">
+      
+
+g_msg = {
+};
+
+
+g_user = {
+    id:660460,
+    name:'茶l壶',
+    login:true};  </script>
+    <script type="text/javascript" src="./osc_files/oschina.js"></script>
+  <script type="text/javascript" src="./osc_files/utils.js"></script>
+  <script type="text/javascript" src="./osc_files/channel.js"></script>
+      <link rel="alternate" type="application/rss+xml" title="开源中国 - 最新软件" href="http://www.oschina.net/project/rss">
+      <style type="text/css">
+    body,table,input,textarea,select {font-family:幼圆,Verdana,sans-serif,宋体;}
+
+      emoji[data-emoji~=emoji] {
+          display: inline-block;
+          width: 24px;
+          height: 24px;
+          line-height: 24px;
+          vertical-align: top;
+          text-align: center;
+      }
+  
+  </style>
+</head>
+<body>
+
+<div id="OSC_NavTop">
+    <div class="wp998">
+        <div id="OSC_Channels">
+            <ul>
+            <li class="item"><a href="http://www.oschina.net/" class="home">首页</a></li>
+            <li class="item control_select"><a href="http://www.oschina.net/project" class="project">开源项目</a>
+                <ul class="cs_content">
+                    <li><a href="http://www.oschina.net/project/zh">国产开源项目</a></li>
+                    <li><a href="http://www.oschina.net/project/tags">项目分类</a></li>
+                    <li><a href="http://www.oschina.net/project/list?sort=time">最新收录项目</a></li>
+                    <li class="split"></li>
+                                        <li><a href="http://www.oschina.net/project/lang/19/java">Java 开源软件</a></li>
+                    <li><a href="http://www.oschina.net/project/lang/194/csharp">C# 开源软件</a></li>
+                    <li><a href="http://www.oschina.net/project/lang/22/php">PHP 开源软件</a></li>
+                    <li><a href="http://www.oschina.net/project/lang/21/c">C/C++ 开源软件</a></li>
+                    <li><a href="http://www.oschina.net/project/lang/26/ruby">Ruby 开源软件</a></li>
+                    <li><a href="http://www.oschina.net/project/lang/25/python">Python 开源软件</a></li>
+                    <li><a href="http://www.oschina.net/project/lang/358/go">Go开源软件</a></li>
+                    <li><a href="http://www.oschina.net/project/lang/28/javascript">JS开源软件</a></li>
+                </ul>
+            </li>
+            <li class="item control_select">
+                <a href="http://www.oschina.net/question" class="question">问答</a>
+                <ul class="cs_content">
+                    <li><a href="http://www.oschina.net/question?catalog=1"> 技术问答 » </a></li>
+                    <li><a href="http://www.oschina.net/question?catalog=2"> 技术分享 » </a></li>
+                    <li><a href="http://www.oschina.net/question?catalog=3"> IT大杂烩 » </a></li>
+                    <li><a href="http://www.oschina.net/question?catalog=100"> 职业生涯 » </a></li>
+                    <li><a href="http://www.oschina.net/question?catalog=4"> 站务/建议 » </a></li>
+                    <li><a href="http://www.oschina.net/alipay"> 支付宝专区 » </a></li>
+                    <li><a href="http://www.oschina.net/mopaas"> MoPaaS专区 » </a></li>
+                    <li><a href="http://www.oschina.net/hardware"> 开源硬件专区 » </a></li>
+                </ul>
+            </li>
+            <li class="item"><a href="http://www.oschina.net/code/list" class="code">代码</a></li>
+                        <li class="item"><a href="http://www.oschina.net/blog" class="blog">博客</a></li>
+            <li class="item"><a href="http://www.oschina.net/translate" class="tran">翻译</a></li>
+            <li class="item"><a href="http://www.oschina.net/news" class="news">资讯</a></li>
+            <li class="item control_select">
+                <a href="http://www.oschina.net/android" class="mobile">专题</a>
+                <ul class="cs_content cs_mobile">
+                    <li><a href="http://www.oschina.net/events" style="color:#c00">源创会</a> <a href="http://www.oschina.net/video">视频</a></li>
+                    <li><a href="http://www.oschina.net/question/tag/%E9%AB%98%E6%89%8B%E9%97%AE%E7%AD%94">高手问答</a> <a href="http://www.oschina.net/question/tag/%E5%BC%80%E6%BA%90%E8%AE%BF%E8%B0%88">访谈</a></li>
+                    <li><a href="http://www.oschina.net/question/tag/%E5%BC%80%E6%BA%90%E5%91%A8%E5%88%8A">周刊</a> <a href="http://my.oschina.net/xxiaobian/blog?catalog=547834">乱弹</a></li>
+                    <li><a href="http://www.oschina.net/company">公司开源导航页</a></li>
+                    <li class="split"></li>
+                    <li class="android_"><a href="http://www.oschina.net/android">Android开发专区</a></li>
+                    <li class="ios_"><a href="http://www.oschina.net/ios/home">iOS开发专区</a></li>
+                    <li class="ios_"><a href="http://www.oschina.net/ios/codingList">iOS代码库</a></li>
+                    <li class="wp7_"><a href="http://www.oschina.net/wp">Windows Phone</a></li>
+                    
+                </ul>
+            </li>
+                                                                                                                                                                                                                                                                                                                                                        <li class="item control_select">
+                <a href="http://city.oschina.net/" id="MyCities" title="城市圈">城市圈&nbsp;<span class="group_msg_count">36</span></a>
+                <ul class="cs_content">
+                                                                                                        <li><a href="http://city.oschina.net/dalian"> 大连城市圈&nbsp;&nbsp;<span class="group_msg_count">2</span> </a></li>
+                                                                                            <li><a href="http://city.oschina.net/shenzhen"> 深圳城市圈&nbsp;&nbsp;<span class="group_msg_count">19</span> </a></li>
+                                                                                            <li><a href="http://city.oschina.net/beijing"> 北京城市圈&nbsp;&nbsp;<span class="group_msg_count">14</span> </a></li>
+                                                                                            <li><a href="http://city.oschina.net/shenyang"> 沈阳城市圈&nbsp;&nbsp;<span class="group_msg_count">1</span> </a></li>
+                                                                                    <li style="border-top: 1px solid #CCC;padding-top: 5px;margin-right: 5px;"><a href="http://city.oschina.net/">全部城市圈</a></li>
+                                            <li><a href="http://www.oschina.net/home/go?page=admin%2Fcity-notification">群动态设置</a></li>
+                                                    </ul>
+            </li>
+            </ul>
+        </div>
+
+        <div id="OSC_Userbar">
+                                    <em>茶l壶</em>,您好
+            <span class="control_select">
+                <a href="http://my.oschina.net/dubenju" id="MySpace" title="我的空间">我的空间</a>
+                <ul class="cs_content cs_myspace">
+                    <li class="msg_"><a href="http://www.oschina.net/home/go?page=admin%2Finbox">我的私信</a></li>
+                    <li class="discuss_"><a href="http://my.oschina.net/dubenju/?ft=bbs&amp;scope=2&amp;showme=1">我的讨论记录</a></li>
+                    <li class="code_"><a href="http://www.oschina.net/code/list_by_user?id=660460">我分享的代码</a></li>
+                    <li class="blog_"><a href="http://www.oschina.net/home/go?page=blog">我的博客</a></li>
+                    <li class="friends_"><a href="http://www.oschina.net/home/go?page=fellow">我关注的人</a></li>
+                    <li class="favorites_"><a href="http://www.oschina.net/home/go?page=favorites">我的收藏夹</a></li>
+                    <li class="profile_"><a href="http://www.oschina.net/home/go?page=admin%2Fprofile">个人资料修改</a></li>
+                    <li class="portrait_"><a href="http://www.oschina.net/home/go?page=admin%2Fportrait">更改我的头像</a></li>
+                </ul>
+            </span>&nbsp;|&nbsp;
+            <a href="http://www.oschina.net/home/go?page=admin%2Fnew-project">添加软件</a>&nbsp;|&nbsp;<a href="http://www.oschina.net/home/go?page=admin%2Fnew-release">投递新闻</a>&nbsp;|&nbsp;<a href="http://www.oschina.net/action/user/logout?session=156d8d8d3e262701&amp;goto_page=http%3A%2F%2Fwww.oschina.net%2F">退出</a>
+                    </div>
+        <div class="clear"></div>
+    </div>
+</div>
+
+
+
+<div id="OSC_Banner"><div class="wp998">    <a href="http://www.oschina.net/" class="Logo" title="开源中国">开源中国</a>
+        <style>
+#OSC_Products {overflow:hidden;float: left;margin: 8px 0 0 10px;}
+#OSC_Products li.pdt {overflow:hidden;float:left;text-align:left;width:178px;}
+#OSC_Products li.pdt .pdtname {color:#333;text-decoration:none;}
+#OSC_Products li.pdt img {float:left; margin:-6px 0 0 0;width:43px; }
+#OSC_Products li.pdt h3 {float:left;margin:5px 0 0 0;padding-left:4px}
+#OSC_Products li.pdt ol {float:left; margin:0 0 0 10px;overflow:hidden;width:80px;}
+#OSC_Products li.pdt ol li {float:left; width:35px;}
+#OSC_Products li.pdt ol li a {text-decoration:none;color:#707070;font-size:9pt;}
+#OSC_Products #ZB a.hl {color:#dd5655;}
+#OSC_Products #ZB a:hover {color:#dd5655;}
+#OSC_Products #MY a.hl {color:#2b99bf;}
+#OSC_Products #MY a:hover {color:#2b99bf;}
+#OSC_Products #RC a.hl {color:#5fa338;}
+#OSC_Products #RC a:hover {color:#5fa338;}
+</style>
+<ul id="OSC_Products">
+    <li class="pdt" id="ZB">
+        <a href="https://zb.oschina.net/" class="pdtname"><img src="./osc_files/newindex-01.svg"> <h3>众包</h3></a>
+        <ol>
+            <li><a href="https://zb.oschina.net/reward" title="任务开发悬赏" class="hl">悬赏</a></li>
+            <li><a href="https://zb.oschina.net/developer" title="找人">找人</a></li>
+            <li><a href="https://zb.oschina.net/project" title="软件整包项目开发">整包</a></li>
+            <li><a href="https://zb.oschina.net/market" title="作品和服务市场">作品</a></li>
+        </ol>
+    </li>
+    <li class="pdt" id="MY">
+        <a href="http://git.oschina.net/" class="pdtname"><img src="./osc_files/newindex-02.svg"> <h3>码云</h3></a>
+        <ol>
+            <li><a href="http://git.oschina.net/" title="Git/SVN代码托管平台" class="hl">Git</a></li>
+            <li><a href="https://team.oschina.net/" title="团队协作开发平台">Team</a></li>
+            <li><a href="http://git.oschina.net/paas_osc" title="项目演示平台">PaaS</a></li>
+            <li><a href="http://sonar.oschina.net/" title="代码质量管理">Sonar</a></li>
+        </ol>
+    </li>
+    <li class="pdt" id="RC">
+        <a href="http://job.oschina.net/" class="pdtname"><img src="./osc_files/newindex-03.svg"> <h3>招聘</h3></a>
+        <ol>
+            <li><a href="http://job.oschina.net/" title="我要找全职工作" class="hl">职位</a></li>
+            <li><a href="http://job.oschina.net/practice" title="我要找实习工作">实习</a></li>
+            <li><a href="http://job.oschina.net/resume" title="我的个人简历">简历</a></li>
+            <li><a href="http://job.oschina.net/role/hr" title="我要招聘">招聘</a></li>
+        </ol>
+    </li>
+</ul>
+    <form action="http://www.oschina.net/search" class="search">
+                <input type="hidden" name="scope" value="project">
+        <input id="channel_q" type="text" name="q" placeholder="在 41004 个开源项目中搜索" class="TXT">
+        <button type="submit" class="BTN">搜 索</button>
+        </form>
+    <div class="clear"></div></div></div>
+<div id="OSC_Screen">
+    <div id="OSC_Content" class="CenterDiv"><link rel="stylesheet" href="./osc_files/oschina2013.css" type="text/css" media="screen">
+<link rel="stylesheet" href="./osc_files/font-awesome.css" type="text/css">
+        
+<table width="100%" cellspacing="0" cellpadding="0" style="table-layout:fixed;">
+<tbody><tr>
+<td valign="top">
+        <table width="100%" cellpadding="0" cellspacing="0">
+        <tbody><tr>
+            <td width="360">
+                <div class="TodayNews" id="IndustryNews">
+                    <strong>
+                        <span><a href="http://www.oschina.net/news/list?show=industry">综合资讯</a></span>
+                <span class="more">
+                <span class="pages">
+                                            <a page="1" class="">1</a>
+                                            <a page="2" class="">2</a>
+                                            <a page="3" class="on">3</a>
+                                    </span>
+                <a href="http://www.oschina.net/news/list?show=industry" title="更多综合资讯">更多»</a>
+                </span>
+                    </strong>
+                                                                                            <div class="TodayNewsTop1">
+                                <h2><a href="http://www.oschina.net/question/2686220_2174260" title="5月15日 上海OSC源创会 —— 老炮聊互联网未来 (2016/05/03)" target="_blank" style="color:#A00;">5月15日 上海OSC源创会 —— 老炮聊互联网未来</a>
+                                </h2>
+
+                                <p>五月，迎来了热情似火的夏天，也迎来了OSC源创会上海站！今年在魔都与OSCer们的约会来的比往年更早一些，...</p>
+                            </div>
+                                                                <div class="clear"></div>
+                                        <ul class="p1" style="display: none;">
+                                                                                    <li class="today"><span class="date">05/15</span><a href="http://www.oschina.net/p/syntaxnet" title="SyntaxNet —— Google 开源自然语言解析器" target="_blank">SyntaxNet —— Google 开源自然语言解析器</a>
+                                </li>
+                                                                                                                <li class="today"><span class="date">05/15</span><a href="http://git.oschina.net/blackbeans/go-moa" title="Git 项目推荐 | 基于 Redis 的 RPC 框架 " target="_blank">Git 项目推荐 | 基于 Redis 的 RPC 框架 </a>
+                                </li>
+                                                                                                                <li class="today"><span class="date">05/15</span><a href="http://www.oschina.net/question/2686220_2174260" title="今天下午上海 OSC 源创会，未报名请直接前往" target="_blank">今天下午上海 OSC 源创会，未报名请直接前往</a>
+                                </li>
+                                                                                                                <li class="today"><span class="date">05/15</span><a href="http://my.oschina.net/xxiaobian/blog/675249" title="OSChina 周日乱弹 —— 好不容易成了最强男人，怎么会偷你洗发水！" target="_blank">OSChina 周日乱弹 —— 好不容易成了最强男人，怎么会偷你洗发水！</a>
+                                </li>
+                                                                                                                <li class="today"><span class="date">05/15</span><a href="http://my.oschina.net/u/935814/blog/674777" title="每日一博 | JOOQ 简单使用" target="_blank">每日一博 | JOOQ 简单使用</a>
+                                </li>
+                                                                                                                <li class="today"><span class="date">05/15</span><a href="http://www.oschina.net/news/73418/javascript-desktop" title="统治 Web 的 JavaScript 准备要接管桌面了" target="_blank">统治 Web 的 JavaScript 准备要接管桌面了</a>
+                                </li>
+                                                                                                                <li class="today"><span class="date">05/15</span><a href="http://www.oschina.net/news/73416/debug-experience" title="记一次灵异般的 Bug 调试经历" target="_blank">记一次灵异般的 Bug 调试经历</a>
+                                </li>
+                                                                                                                <li class="today"><span class="date">05/15</span><a href="http://www.oschina.net/news/73415/7-zip-bugs" title="7-Zip 发现多个高危漏洞" target="_blank">7-Zip 发现多个高危漏洞</a>
+                                </li>
+                                                                                                                <li class="today"><span class="date">05/15</span><a href="http://www.oschina.net/news/73413/zfs-for-linux" title="ZFS for Linux 进入 Debian 软件库" target="_blank">ZFS for Linux 进入 Debian 软件库</a>
+                                </li>
+                                                                                                                <li><span class="date">05/14</span><a href="http://www.oschina.net/translate/why-openbsd-is-important-to-me" title="协作翻译 | 为什么 OpenBSD 对我来说如此重要" target="_blank">协作翻译 | 为什么 OpenBSD 对我来说如此重要</a>
+                                </li>
+                                                                                                                            </ul>
+                    <ul class="p2" style="display: none;">
+                                                    <li><span class="date">05/14</span><a href="http://git.oschina.net/wengcd/webei-vue" title="Git 项目推荐 | 基于 Vue.js 的微贝C端重构项目 " target="_blank">Git 项目推荐 | 基于 Vue.js 的微贝C端重构项目 </a>
+                            </li>
+                                                    <li><span class="date">05/14</span><a href="http://www.oschina.net/p/fontawesome" title="FontAwesome——完美的图标字体 " target="_blank">FontAwesome——完美的图标字体 </a>
+                            </li>
+                                                    <li><span class="date">05/14</span><a href="http://my.oschina.net/xxiaobian/blog/674974" title="OSChina 周六乱弹 ——你觉得女生的哪些行为很汉子" target="_blank">OSChina 周六乱弹 ——你觉得女生的哪些行为很汉子</a>
+                            </li>
+                                                    <li><span class="date">05/14</span><a href="http://my.oschina.net/luckid/blog/674764" title="每日一博 | GIT在使用中如何处理冲突问题" target="_blank">每日一博 | GIT在使用中如何处理冲突问题</a>
+                            </li>
+                                                    <li><span class="date">05/14</span><a href="http://www.oschina.net/news/73400/the-right-brand-architecture-for-open-source-project" title="如何为你的开源项目选择正确的品牌架构" target="_blank">如何为你的开源项目选择正确的品牌架构</a>
+                            </li>
+                                                    <li><span class="date">05/14</span><a href="http://www.oschina.net/news/73397/linux-become-the-biggest-program" title="Linux 已成为计算机史上最大的软件开发项目" target="_blank">Linux 已成为计算机史上最大的软件开发项目</a>
+                            </li>
+                                                    <li><span class="date">05/14</span><a href="http://www.oschina.net/news/73395/google-open-source-syntaxnet" title="Google 开源全球最精准自然语言解析器 SyntaxNet" target="_blank">Google 开源全球最精准自然语言解析器 SyntaxNet</a>
+                            </li>
+                                                    <li><span class="date">05/14</span><a href="http://www.oschina.net/news/73391/qilin_baoleiji-analyse" title="麒麟开源堡垒主机在等保上的合规性分析" target="_blank">麒麟开源堡垒主机在等保上的合规性分析</a>
+                            </li>
+                                                    <li><span class="date">05/13</span><a href="http://www.oschina.net/news/73390/jonathan-schwartz-trial-java-free-android-no-licensing-problem" title="前 Sun 公司 CEO 作证 Android 没有授权问题" target="_blank">前 Sun 公司 CEO 作证 Android 没有授权问题</a>
+                            </li>
+                                                    <li><span class="date">05/13</span><a href="http://www.oschina.net/news/73377/gitosc-donate" title="码云开源项目捐赠功能上线，开源需要大家共同支持" target="_blank">码云开源项目捐赠功能上线，开源需要大家共同支持</a>
+                            </li>
+                                            </ul>
+                    <ul class="p3" style="display: block;">
+                                                    <li><span class="date">05/13</span><a href="http://www.oschina.net/translate/agile-dead-matthew-kern" title="协作翻译 | 敏捷已死，有事烧纸 " target="_blank">协作翻译 | 敏捷已死，有事烧纸 </a>
+                            </li>
+                                                    <li><span class="date">05/13</span><a href="http://git.oschina.net/longfei6671/async" title="Git 项目推荐 | 基于 Golang 的异步任务包" target="_blank">Git 项目推荐 | 基于 Golang 的异步任务包</a>
+                            </li>
+                                                    <li><span class="date">05/13</span><a href="http://www.oschina.net/question/2686220_2174260" title="周日上海 OSC 源创会最后一天报名，错过等明年" target="_blank">周日上海 OSC 源创会最后一天报名，错过等明年</a>
+                            </li>
+                                                    <li><span class="date">05/13</span><a href="http://www.oschina.net/p/gulp-js" title="Gulp.js —— 基于流的自动化构建工具" target="_blank">Gulp.js —— 基于流的自动化构建工具</a>
+                            </li>
+                                                    <li><span class="date">05/13</span><a href="http://my.oschina.net/xxiaobian/blog/674397" title="OSChina 周五乱弹 —— 什么样的工作每天都有艳遇" target="_blank">OSChina 周五乱弹 —— 什么样的工作每天都有艳遇</a>
+                            </li>
+                                                    <li><span class="date">05/13</span><a href="http://my.oschina.net/zhangstephen/blog/673838" title="每日一博 | JavaScript 中的正确错误处理" target="_blank">每日一博 | JavaScript 中的正确错误处理</a>
+                            </li>
+                                                    <li><span class="date">05/13</span><a href="http://www.oschina.net/news/73369/cloud-computing" title="没有开玩笑：云计算之后是……雾计算" target="_blank">没有开玩笑：云计算之后是……雾计算</a>
+                            </li>
+                                                    <li><span class="date">05/13</span><a href="http://www.oschina.net/news/73366/nest-openthread" title="Nest 发布开源网络协议 OpenThread：助力智能家居产业发展" target="_blank">Nest 发布开源网络协议 OpenThread：助力智能家居产业发展</a>
+                            </li>
+                                                    <li><span class="date">05/13</span><a href="http://www.oschina.net/news/73361/git-11-bitkeeper" title="Git 诞生 11 年后，BitKeeper 宣布开源" target="_blank">Git 诞生 11 年后，BitKeeper 宣布开源</a>
+                            </li>
+                                                    <li><span class="date">05/13</span><a href="http://www.oschina.net/news/73359/eric-schmidt-testify" title=" Eric Schmidt 作证说使用 API 无需授权" target="_blank"> Eric Schmidt 作证说使用 API 无需授权</a>
+                            </li>
+                                            </ul>
+                </div>
+            </td>
+            <td>
+                <div class="TodayNews" id="ProjectNews">
+                    <strong>
+                        <span><a href="http://www.oschina.net/news/list?show=project">软件更新资讯</a></span>
+                <span class="more">
+                <span class="pages">
+                                            <a page="1" class="on">1</a>
+                                            <a page="2">2</a>
+                                            <a page="3">3</a>
+                                    </span>
+                <a href="http://www.oschina.net/news/list?show=project" title="更多软件更新资讯">更多»</a>
+                </span>
+                    </strong>
+
+                    <div class="TodayNewsTop1">
+                                                <h2><a href="http://www.oschina.net/news/73297/7-zip-16-00" title="7-Zip 16.00 发布，压缩/解压缩的开源软件 (2016/05/11)" target="_blank">7-Zip 16.00 发布，压缩/解压缩的开源软件</a></h2>
+
+                        <p>7-Zip是一个开放源码的数据压缩程序，主要用在 Windows操作系统，Unix 操作系统如Linux与FreeBSD下面有移...</p>
+                    </div>
+                    <div class="clear"></div>
+                                        <ul class="p1">
+                                                                                    <li class="today"><span class="date">05/15</span><a href="http://www.oschina.net/news/73428/fdslight-v2-1-4" title="Fdslight v2.1.4 发布，部署在网关的 IP 代理" target="_blank">Fdslight v2.1.4 发布，部署在网关的 IP 代理</a>
+                                </li>
+                                                                                                                <li class="today"><span class="date">05/15</span><a href="http://www.oschina.net/news/73426/qb-0-1-st-james-infirmary" title="qb 0.1 - st.james infirmary 发布" target="_blank">qb 0.1 - st.james infirmary 发布</a>
+                                </li>
+                                                                                                                <li class="today"><span class="date">05/15</span><a href="http://www.oschina.net/news/73424/red-hat-enterprise-linux-6-8" title="Red Hat Enterprise Linux 6.8 发布下载" target="_blank">Red Hat Enterprise Linux 6.8 发布下载</a>
+                                </li>
+                                                                                                                <li class="today"><span class="date">05/15</span><a href="http://www.oschina.net/news/73420/erlang-otp-19-0-rc-1" title="Erlang/OTP 19.0.rc1 发布，动态类型编程语言" target="_blank">Erlang/OTP 19.0.rc1 发布，动态类型编程语言</a>
+                                </li>
+                                                                                                                <li class="today"><span class="date">05/15</span><a href="http://www.oschina.net/news/73419/crate-0-54-9" title="Crate 0.54.9 发布，数据存储系统" target="_blank">Crate 0.54.9 发布，数据存储系统</a>
+                                </li>
+                                                                                                                <li class="today"><span class="date">05/15</span><a href="http://www.oschina.net/news/73417/electron-v-1-1-0" title="Electron v 1.1.0 和 v 1.0.2 发布" target="_blank">Electron v 1.1.0 和 v 1.0.2 发布</a>
+                                </li>
+                                                                                                                <li class="today"><span class="date">05/15</span><a href="http://www.oschina.net/news/73414/jboss-forge-3-2-0-final" title="JBoss Forge 3.2.0.Final 发布" target="_blank">JBoss Forge 3.2.0.Final 发布</a>
+                                </li>
+                                                                                                                <li><span class="date">05/14</span><a href="http://www.oschina.net/news/73411/rabbitmq-3-6-2-rc-4" title="RabbitMQ 3.6.2 RC4 发布" target="_blank">RabbitMQ 3.6.2 RC4 发布</a>
+                                </li>
+                                                                                                                <li><span class="date">05/14</span><a href="http://www.oschina.net/news/73410/kotlin-1-0-2" title="Kotlin 1.0.2 发布，基于 JVM 的编程语言" target="_blank">Kotlin 1.0.2 发布，基于 JVM 的编程语言</a>
+                                </li>
+                                                                                                                <li><span class="date">05/14</span><a href="http://www.oschina.net/news/73406/ckeditor-4-5-9" title="CKEditor 4.5.9 发布，Bugs 修复版本" target="_blank">CKEditor 4.5.9 发布，Bugs 修复版本</a>
+                                </li>
+                                                                                                                            </ul>
+                    <ul class="p2" style="display:none;">
+                                                    <li><span class="date">05/14</span><a href="http://www.oschina.net/news/73404/raspbian-2016-05-10" title="Raspbian 2016-05-10 发布" target="_blank">Raspbian 2016-05-10 发布</a>
+                            </li>
+                                                    <li><span class="date">05/14</span><a href="http://www.oschina.net/news/73402/gitlab-v8-8-0-rc1" title="GitLab v8.8.0-rc1 发布" target="_blank">GitLab v8.8.0-rc1 发布</a>
+                            </li>
+                                                    <li><span class="date">05/14</span><a href="http://www.oschina.net/news/73401/spring-io-platform-2-0-5" title="Spring IO Platform 2.0.5 发布" target="_blank">Spring IO Platform 2.0.5 发布</a>
+                            </li>
+                                                    <li><span class="date">05/14</span><a href="http://www.oschina.net/news/73399/mongoose-4-4-17" title="Mongoose 4.4.17 发布，MongoDB 连接包" target="_blank">Mongoose 4.4.17 发布，MongoDB 连接包</a>
+                            </li>
+                                                    <li><span class="date">05/14</span><a href="http://www.oschina.net/news/73398/pharo-5-0" title="Pharo 5.0 发布，Smalltalk 开发环境" target="_blank">Pharo 5.0 发布，Smalltalk 开发环境</a>
+                            </li>
+                                                    <li><span class="date">05/14</span><a href="http://www.oschina.net/news/73396/rocket-v1-6-0" title="Rocket v1.6.0 发布，安全性增强" target="_blank">Rocket v1.6.0 发布，安全性增强</a>
+                            </li>
+                                                    <li><span class="date">05/14</span><a href="http://www.oschina.net/news/73394/boost-1-61-0" title="Boost 1.61.0 发布，可移植的 C++ 标准库" target="_blank">Boost 1.61.0 发布，可移植的 C++ 标准库</a>
+                            </li>
+                                                    <li><span class="date">05/14</span><a href="http://www.oschina.net/news/73393/ceph-0-94-7-hammer" title="Ceph v0.94.7 Hammer 发布，分布式存储系统" target="_blank">Ceph v0.94.7 Hammer 发布，分布式存储系统</a>
+                            </li>
+                                                    <li><span class="date">05/14</span><a href="http://www.oschina.net/news/73392/seimiagent-1-1" title="动态网页渲染服务器 SeimiAgent V1.1 发布" target="_blank">动态网页渲染服务器 SeimiAgent V1.1 发布</a>
+                            </li>
+                                                    <li><span class="date">05/13</span><a href="http://www.oschina.net/news/73389/git-osc-app-updated" title="开源中国码云客户端新版发布" target="_blank">开源中国码云客户端新版发布</a>
+                            </li>
+                                            </ul>
+                    <ul class="p3" style="display:none;">
+                                                    <li><span class="date">05/13</span><a href="http://www.oschina.net/news/73383/postgresql-9-6-beta-1-9-5-3-9-4-8-9-3-13-9-2-17-and-9-1-22" title="PostgreSQL 9.6 Beta 1，9.5.3，9.4.8，9.3.13，9.2.17 和 9.1.22 发布" target="_blank">PostgreSQL 9.6 Beta 1，9.5.3，9.4.8，9.3.13，9.2.17 和 9.1.22 发布</a>
+                            </li>
+                                                    <li><span class="date">05/13</span><a href="http://www.oschina.net/news/73382/quartz-2-2-3" title="Quartz 2.2.3 发布，Java 作业调度框架" target="_blank">Quartz 2.2.3 发布，Java 作业调度框架</a>
+                            </li>
+                                                    <li><span class="date">05/13</span><a href="http://www.oschina.net/news/73381/cmlphp-2-6-3" title="CmlPHP V2.6.3 发布，快速稳定易维护的PHP 框架" target="_blank">CmlPHP V2.6.3 发布，快速稳定易维护的PHP 框架</a>
+                            </li>
+                                                    <li><span class="date">05/13</span><a href="http://www.oschina.net/news/73378/colorbox-1-6-4" title="Colorbox 1.6.4 发布，jQuery 弹窗组件" target="_blank">Colorbox 1.6.4 发布，jQuery 弹窗组件</a>
+                            </li>
+                                                    <li><span class="date">05/13</span><a href="http://www.oschina.net/news/73370/sequelize-v-3-23-1" title="Sequelize v3.23.1 发布，Node.js 的 ORM" target="_blank">Sequelize v3.23.1 发布，Node.js 的 ORM</a>
+                            </li>
+                                                    <li><span class="date">05/13</span><a href="http://www.oschina.net/news/73368/smartgit-7-2-preview-6" title="SmartGit 7.2 preview 6 发布，Git 客户端" target="_blank">SmartGit 7.2 preview 6 发布，Git 客户端</a>
+                            </li>
+                                                    <li><span class="date">05/13</span><a href="http://www.oschina.net/news/73367/gitlab-8-7-5" title="GitLab 8.7.5 发布，修复 bug" target="_blank">GitLab 8.7.5 发布，修复 bug</a>
+                            </li>
+                                                    <li><span class="date">05/13</span><a href="http://www.oschina.net/news/73365/lodash-4-12-0-npm" title="Lodash 发布 4.12.0-npm 等一系列更新" target="_blank">Lodash 发布 4.12.0-npm 等一系列更新</a>
+                            </li>
+                                                    <li><span class="date">05/13</span><a href="http://www.oschina.net/news/73364/android-7.0" title="Android 7.0 重磅新功能：原生支持压力屏" target="_blank">Android 7.0 重磅新功能：原生支持压力屏</a>
+                            </li>
+                                                    <li><span class="date">05/13</span><a href="http://www.oschina.net/news/73363/gnome-3-20-2" title="GNOME 3.20.2 发布，Linux 桌面环境" target="_blank">GNOME 3.20.2 发布，Linux 桌面环境</a>
+                            </li>
+                                            </ul>
+                </div>
+            </td>
+        </tr>
+    </tbody></table>
+
+                        <div style="margin-top: 10px;">
+        <a name="index_banner_one">
+        </a><a href="http://www.qcloud.com/event/monitor2.html?utm_source=kyzgbn&amp;utm_medium=kyzg&amp;utm_campaign=kyzg2016" target="_blank" title="腾讯云">
+            <img src="./osc_files/index_banner_one_DfLCT.jpg" width="708" height="50">
+        </a>
+         </div>
+        <div id="HomeCrowdsourcingPanel" class="mod HomeCrowdsourcingPanel">
+        <h2>
+            <span class="right">
+                <a href="https://zb.oschina.net/">进入众包平台»</a>
+            </span>
+            <a href="https://zb.oschina.net/" class="title">开源中国·众包</a>
+        </h2>
+
+        <div class="body">
+            <div>
+                
+                <div class="cr_list">
+
+
+                    <strong>最新悬赏 <a title="更多悬赏" style="text-decoration: none;color: #666;margin-right: 10px;float: right;" target="_blank" href="https://zb.oschina.net/reward">更多»</a></strong>
+                    <ul>
+                                                                                                            <li>
+                                    <svg y="0px" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" xml:space="preserve" x="0px" viewBox="0 0 50 50" enable-background="new 0 0 50 50">
+                                        <g>
+                                            <path fill="#777" d="M41.6,13.6c0-4.7-8.5-7.3-16.6-7.3c-8,0-16.5,2.5-16.6,7.2l0,0v21l0,0c0.2,4.6,8.6,7.1,16.6,7.1   c7.9,0,16.4-2.5,16.6-7.1l0,0V13.6L41.6,13.6C41.6,13.6,41.6,13.6,41.6,13.6L41.6,13.6z M10.5,24.7c2.8,2.2,8.1,3.7,14.5,3.7   c6.4,0,11.8-1.4,14.5-3.7v3.6c-0.7,2.3-6.5,4.7-14.5,4.7c-8.1,0-13.8-2.4-14.5-4.7V24.7L10.5,24.7z M39.5,21.6   c-0.7,2.3-6.5,4.7-14.5,4.7c-8.1,0-13.8-2.4-14.5-4.7v-4.3c3,2.4,8.9,3.6,14.5,3.6c5.6,0,11.5-1.2,14.5-3.6V21.6L39.5,21.6z    M25,8.4c8.4,0,14.6,2.8,14.6,5.2c0,2.5-6.3,5.2-14.6,5.2c-8.4,0-14.6-2.8-14.6-5.2C10.4,11.1,16.6,8.4,25,8.4L25,8.4z M25,39.6   c-7.7,0-13.6-2.3-14.5-4.6v-3.5c2.8,2.2,8.1,3.7,14.5,3.7c6.4,0,11.8-1.4,14.5-3.7V35C38.6,37.3,32.7,39.6,25,39.6L25,39.6z    M25,39.6"></path>
+                                        </g>
+                                    </svg>
+                                    <a href="https://zb.oschina.net/reward/2302064_12799" target="_blank" title="微信商户优惠券开发">微信商户优惠券开发</a>
+                                    <span class="categroy">[微信]</span>
+                                    <span class="money">¥1,000</span>
+
+                                    <div class="clear"></div>
+                                </li>
+                                                                                                                                        <li>
+                                    <svg y="0px" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" xml:space="preserve" x="0px" viewBox="0 0 50 50" enable-background="new 0 0 50 50">
+                                        <g>
+                                            <path fill="#777" d="M41.6,13.6c0-4.7-8.5-7.3-16.6-7.3c-8,0-16.5,2.5-16.6,7.2l0,0v21l0,0c0.2,4.6,8.6,7.1,16.6,7.1   c7.9,0,16.4-2.5,16.6-7.1l0,0V13.6L41.6,13.6C41.6,13.6,41.6,13.6,41.6,13.6L41.6,13.6z M10.5,24.7c2.8,2.2,8.1,3.7,14.5,3.7   c6.4,0,11.8-1.4,14.5-3.7v3.6c-0.7,2.3-6.5,4.7-14.5,4.7c-8.1,0-13.8-2.4-14.5-4.7V24.7L10.5,24.7z M39.5,21.6   c-0.7,2.3-6.5,4.7-14.5,4.7c-8.1,0-13.8-2.4-14.5-4.7v-4.3c3,2.4,8.9,3.6,14.5,3.6c5.6,0,11.5-1.2,14.5-3.6V21.6L39.5,21.6z    M25,8.4c8.4,0,14.6,2.8,14.6,5.2c0,2.5-6.3,5.2-14.6,5.2c-8.4,0-14.6-2.8-14.6-5.2C10.4,11.1,16.6,8.4,25,8.4L25,8.4z M25,39.6   c-7.7,0-13.6-2.3-14.5-4.6v-3.5c2.8,2.2,8.1,3.7,14.5,3.7c6.4,0,11.8-1.4,14.5-3.7V35C38.6,37.3,32.7,39.6,25,39.6L25,39.6z    M25,39.6"></path>
+                                        </g>
+                                    </svg>
+                                    <a href="https://zb.oschina.net/reward/2627481_12803" target="_blank" title="HTML5游戏修改">HTML5游戏修改</a>
+                                    <span class="categroy">[HTML5]</span>
+                                    <span class="money">¥1,500</span>
+
+                                    <div class="clear"></div>
+                                </li>
+                                                                                                                                        <li>
+                                    <svg y="0px" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" xml:space="preserve" x="0px" viewBox="0 0 50 50" enable-background="new 0 0 50 50">
+                                        <g>
+                                            <path fill="#777" d="M41.6,13.6c0-4.7-8.5-7.3-16.6-7.3c-8,0-16.5,2.5-16.6,7.2l0,0v21l0,0c0.2,4.6,8.6,7.1,16.6,7.1   c7.9,0,16.4-2.5,16.6-7.1l0,0V13.6L41.6,13.6C41.6,13.6,41.6,13.6,41.6,13.6L41.6,13.6z M10.5,24.7c2.8,2.2,8.1,3.7,14.5,3.7   c6.4,0,11.8-1.4,14.5-3.7v3.6c-0.7,2.3-6.5,4.7-14.5,4.7c-8.1,0-13.8-2.4-14.5-4.7V24.7L10.5,24.7z M39.5,21.6   c-0.7,2.3-6.5,4.7-14.5,4.7c-8.1,0-13.8-2.4-14.5-4.7v-4.3c3,2.4,8.9,3.6,14.5,3.6c5.6,0,11.5-1.2,14.5-3.6V21.6L39.5,21.6z    M25,8.4c8.4,0,14.6,2.8,14.6,5.2c0,2.5-6.3,5.2-14.6,5.2c-8.4,0-14.6-2.8-14.6-5.2C10.4,11.1,16.6,8.4,25,8.4L25,8.4z M25,39.6   c-7.7,0-13.6-2.3-14.5-4.6v-3.5c2.8,2.2,8.1,3.7,14.5,3.7c6.4,0,11.8-1.4,14.5-3.7V35C38.6,37.3,32.7,39.6,25,39.6L25,39.6z    M25,39.6"></path>
+                                        </g>
+                                    </svg>
+                                    <a href="https://zb.oschina.net/reward/2542880_12791" target="_blank" title="第三方支付开发">第三方支付开发</a>
+                                    <span class="categroy">[SDK]</span>
+                                    <span class="money">¥1,000</span>
+
+                                    <div class="clear"></div>
+                                </li>
+                                                                                                                                        <li>
+                                    <svg y="0px" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" xml:space="preserve" x="0px" viewBox="0 0 50 50" enable-background="new 0 0 50 50">
+                                        <g>
+                                            <path fill="#777" d="M41.6,13.6c0-4.7-8.5-7.3-16.6-7.3c-8,0-16.5,2.5-16.6,7.2l0,0v21l0,0c0.2,4.6,8.6,7.1,16.6,7.1   c7.9,0,16.4-2.5,16.6-7.1l0,0V13.6L41.6,13.6C41.6,13.6,41.6,13.6,41.6,13.6L41.6,13.6z M10.5,24.7c2.8,2.2,8.1,3.7,14.5,3.7   c6.4,0,11.8-1.4,14.5-3.7v3.6c-0.7,2.3-6.5,4.7-14.5,4.7c-8.1,0-13.8-2.4-14.5-4.7V24.7L10.5,24.7z M39.5,21.6   c-0.7,2.3-6.5,4.7-14.5,4.7c-8.1,0-13.8-2.4-14.5-4.7v-4.3c3,2.4,8.9,3.6,14.5,3.6c5.6,0,11.5-1.2,14.5-3.6V21.6L39.5,21.6z    M25,8.4c8.4,0,14.6,2.8,14.6,5.2c0,2.5-6.3,5.2-14.6,5.2c-8.4,0-14.6-2.8-14.6-5.2C10.4,11.1,16.6,8.4,25,8.4L25,8.4z M25,39.6   c-7.7,0-13.6-2.3-14.5-4.6v-3.5c2.8,2.2,8.1,3.7,14.5,3.7c6.4,0,11.8-1.4,14.5-3.7V35C38.6,37.3,32.7,39.6,25,39.6L25,39.6z    M25,39.6"></path>
+                                        </g>
+                                    </svg>
+                                    <a href="https://zb.oschina.net/reward/2746315_12788" target="_blank" title="实现 UTme! app 内的一种摇一摇算法">实现 UTme! app 内的一种摇一摇算法</a>
+                                    <span class="categroy">[网站]</span>
+                                    <span class="money">¥1,000</span>
+
+                                    <div class="clear"></div>
+                                </li>
+                                                                                                                                        <li>
+                                    <svg y="0px" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" xml:space="preserve" x="0px" viewBox="0 0 50 50" enable-background="new 0 0 50 50">
+                                        <g>
+                                            <path fill="#777" d="M41.6,13.6c0-4.7-8.5-7.3-16.6-7.3c-8,0-16.5,2.5-16.6,7.2l0,0v21l0,0c0.2,4.6,8.6,7.1,16.6,7.1   c7.9,0,16.4-2.5,16.6-7.1l0,0V13.6L41.6,13.6C41.6,13.6,41.6,13.6,41.6,13.6L41.6,13.6z M10.5,24.7c2.8,2.2,8.1,3.7,14.5,3.7   c6.4,0,11.8-1.4,14.5-3.7v3.6c-0.7,2.3-6.5,4.7-14.5,4.7c-8.1,0-13.8-2.4-14.5-4.7V24.7L10.5,24.7z M39.5,21.6   c-0.7,2.3-6.5,4.7-14.5,4.7c-8.1,0-13.8-2.4-14.5-4.7v-4.3c3,2.4,8.9,3.6,14.5,3.6c5.6,0,11.5-1.2,14.5-3.6V21.6L39.5,21.6z    M25,8.4c8.4,0,14.6,2.8,14.6,5.2c0,2.5-6.3,5.2-14.6,5.2c-8.4,0-14.6-2.8-14.6-5.2C10.4,11.1,16.6,8.4,25,8.4L25,8.4z M25,39.6   c-7.7,0-13.6-2.3-14.5-4.6v-3.5c2.8,2.2,8.1,3.7,14.5,3.7c6.4,0,11.8-1.4,14.5-3.7V35C38.6,37.3,32.7,39.6,25,39.6L25,39.6z    M25,39.6"></path>
+                                        </g>
+                                    </svg>
+                                    <a href="https://zb.oschina.net/reward/2373975_12777" target="_blank" title="windows下批处理或其他语言操作系统配置程序开发">windows下批处理或其他语言操作系统配置程序开发</a>
+                                    <span class="categroy">[其它]</span>
+                                    <span class="money">¥1,500</span>
+
+                                    <div class="clear"></div>
+                                </li>
+                                                                        </ul>
+                    <strong>最新整包项目 <a title="更多整包" style="text-decoration: none;color: #666;margin-right: 10px;float: right;" target="_blank" href="https://zb.oschina.net/project">更多»</a></strong>
+                    <ul>
+                                                                                                        <li>
+                                    <svg y="0px" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" xml:space="preserve" x="0px" viewBox="0 0 50 50" enable-background="new 0 0 50 50">
+                                        <g>
+                                            <path fill="#777" d="M41.6,13.6c0-4.7-8.5-7.3-16.6-7.3c-8,0-16.5,2.5-16.6,7.2l0,0v21l0,0c0.2,4.6,8.6,7.1,16.6,7.1   c7.9,0,16.4-2.5,16.6-7.1l0,0V13.6L41.6,13.6C41.6,13.6,41.6,13.6,41.6,13.6L41.6,13.6z M10.5,24.7c2.8,2.2,8.1,3.7,14.5,3.7   c6.4,0,11.8-1.4,14.5-3.7v3.6c-0.7,2.3-6.5,4.7-14.5,4.7c-8.1,0-13.8-2.4-14.5-4.7V24.7L10.5,24.7z M39.5,21.6   c-0.7,2.3-6.5,4.7-14.5,4.7c-8.1,0-13.8-2.4-14.5-4.7v-4.3c3,2.4,8.9,3.6,14.5,3.6c5.6,0,11.5-1.2,14.5-3.6V21.6L39.5,21.6z    M25,8.4c8.4,0,14.6,2.8,14.6,5.2c0,2.5-6.3,5.2-14.6,5.2c-8.4,0-14.6-2.8-14.6-5.2C10.4,11.1,16.6,8.4,25,8.4L25,8.4z M25,39.6   c-7.7,0-13.6-2.3-14.5-4.6v-3.5c2.8,2.2,8.1,3.7,14.5,3.7c6.4,0,11.8-1.4,14.5-3.7V35C38.6,37.3,32.7,39.6,25,39.6L25,39.6z    M25,39.6"></path>
+                                        </g>
+                                    </svg>
+                                    <a href="https://zb.oschina.net/project/88dfa62f1f9e8b1eb3c76ac356698d4f" target="_blank" title="订阅号项目开发优化">订阅号项目开发优化</a>
+                                    <span class="money">
+                                                                                    ¥10,000
+                                                                            </span>
+                                    <div class="clear"></div>
+                                </li>
+                                                                                                                <li>
+                                    <svg y="0px" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" xml:space="preserve" x="0px" viewBox="0 0 50 50" enable-background="new 0 0 50 50">
+                                        <g>
+                                            <path fill="#777" d="M41.6,13.6c0-4.7-8.5-7.3-16.6-7.3c-8,0-16.5,2.5-16.6,7.2l0,0v21l0,0c0.2,4.6,8.6,7.1,16.6,7.1   c7.9,0,16.4-2.5,16.6-7.1l0,0V13.6L41.6,13.6C41.6,13.6,41.6,13.6,41.6,13.6L41.6,13.6z M10.5,24.7c2.8,2.2,8.1,3.7,14.5,3.7   c6.4,0,11.8-1.4,14.5-3.7v3.6c-0.7,2.3-6.5,4.7-14.5,4.7c-8.1,0-13.8-2.4-14.5-4.7V24.7L10.5,24.7z M39.5,21.6   c-0.7,2.3-6.5,4.7-14.5,4.7c-8.1,0-13.8-2.4-14.5-4.7v-4.3c3,2.4,8.9,3.6,14.5,3.6c5.6,0,11.5-1.2,14.5-3.6V21.6L39.5,21.6z    M25,8.4c8.4,0,14.6,2.8,14.6,5.2c0,2.5-6.3,5.2-14.6,5.2c-8.4,0-14.6-2.8-14.6-5.2C10.4,11.1,16.6,8.4,25,8.4L25,8.4z M25,39.6   c-7.7,0-13.6-2.3-14.5-4.6v-3.5c2.8,2.2,8.1,3.7,14.5,3.7c6.4,0,11.8-1.4,14.5-3.7V35C38.6,37.3,32.7,39.6,25,39.6L25,39.6z    M25,39.6"></path>
+                                        </g>
+                                    </svg>
+                                    <a href="https://zb.oschina.net/project/99244353b8fef39c49c034282b2cb454" target="_blank" title="直播视频互动：投票场景H5页面制作">直播视频互动：投票场景H5页面制作</a>
+                                    <span class="money">
+                                                                                    竞标报价
+                                                                            </span>
+                                    <div class="clear"></div>
+                                </li>
+                                                                                                                <li>
+                                    <svg y="0px" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" xml:space="preserve" x="0px" viewBox="0 0 50 50" enable-background="new 0 0 50 50">
+                                        <g>
+                                            <path fill="#777" d="M41.6,13.6c0-4.7-8.5-7.3-16.6-7.3c-8,0-16.5,2.5-16.6,7.2l0,0v21l0,0c0.2,4.6,8.6,7.1,16.6,7.1   c7.9,0,16.4-2.5,16.6-7.1l0,0V13.6L41.6,13.6C41.6,13.6,41.6,13.6,41.6,13.6L41.6,13.6z M10.5,24.7c2.8,2.2,8.1,3.7,14.5,3.7   c6.4,0,11.8-1.4,14.5-3.7v3.6c-0.7,2.3-6.5,4.7-14.5,4.7c-8.1,0-13.8-2.4-14.5-4.7V24.7L10.5,24.7z M39.5,21.6   c-0.7,2.3-6.5,4.7-14.5,4.7c-8.1,0-13.8-2.4-14.5-4.7v-4.3c3,2.4,8.9,3.6,14.5,3.6c5.6,0,11.5-1.2,14.5-3.6V21.6L39.5,21.6z    M25,8.4c8.4,0,14.6,2.8,14.6,5.2c0,2.5-6.3,5.2-14.6,5.2c-8.4,0-14.6-2.8-14.6-5.2C10.4,11.1,16.6,8.4,25,8.4L25,8.4z M25,39.6   c-7.7,0-13.6-2.3-14.5-4.6v-3.5c2.8,2.2,8.1,3.7,14.5,3.7c6.4,0,11.8-1.4,14.5-3.7V35C38.6,37.3,32.7,39.6,25,39.6L25,39.6z    M25,39.6"></path>
+                                        </g>
+                                    </svg>
+                                    <a href="https://zb.oschina.net/project/13dbbc7d4ec6481a69aa2236f710929d" target="_blank" title="odoo系统跨境电商海关对接接口开发">odoo系统跨境电商海关对接接口开发</a>
+                                    <span class="money">
+                                                                                    ¥3,000
+                                                                            </span>
+                                    <div class="clear"></div>
+                                </li>
+                                                                                                                <li>
+                                    <svg y="0px" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" xml:space="preserve" x="0px" viewBox="0 0 50 50" enable-background="new 0 0 50 50">
+                                        <g>
+                                            <path fill="#777" d="M41.6,13.6c0-4.7-8.5-7.3-16.6-7.3c-8,0-16.5,2.5-16.6,7.2l0,0v21l0,0c0.2,4.6,8.6,7.1,16.6,7.1   c7.9,0,16.4-2.5,16.6-7.1l0,0V13.6L41.6,13.6C41.6,13.6,41.6,13.6,41.6,13.6L41.6,13.6z M10.5,24.7c2.8,2.2,8.1,3.7,14.5,3.7   c6.4,0,11.8-1.4,14.5-3.7v3.6c-0.7,2.3-6.5,4.7-14.5,4.7c-8.1,0-13.8-2.4-14.5-4.7V24.7L10.5,24.7z M39.5,21.6   c-0.7,2.3-6.5,4.7-14.5,4.7c-8.1,0-13.8-2.4-14.5-4.7v-4.3c3,2.4,8.9,3.6,14.5,3.6c5.6,0,11.5-1.2,14.5-3.6V21.6L39.5,21.6z    M25,8.4c8.4,0,14.6,2.8,14.6,5.2c0,2.5-6.3,5.2-14.6,5.2c-8.4,0-14.6-2.8-14.6-5.2C10.4,11.1,16.6,8.4,25,8.4L25,8.4z M25,39.6   c-7.7,0-13.6-2.3-14.5-4.6v-3.5c2.8,2.2,8.1,3.7,14.5,3.7c6.4,0,11.8-1.4,14.5-3.7V35C38.6,37.3,32.7,39.6,25,39.6L25,39.6z    M25,39.6"></path>
+                                        </g>
+                                    </svg>
+                                    <a href="https://zb.oschina.net/project/034d049768e81880dd90f68660823d47" target="_blank" title="阀门产品选型平台web开发">阀门产品选型平台web开发</a>
+                                    <span class="money">
+                                                                                    竞标报价
+                                                                            </span>
+                                    <div class="clear"></div>
+                                </li>
+                                                                                                                <li>
+                                    <svg y="0px" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" xml:space="preserve" x="0px" viewBox="0 0 50 50" enable-background="new 0 0 50 50">
+                                        <g>
+                                            <path fill="#777" d="M41.6,13.6c0-4.7-8.5-7.3-16.6-7.3c-8,0-16.5,2.5-16.6,7.2l0,0v21l0,0c0.2,4.6,8.6,7.1,16.6,7.1   c7.9,0,16.4-2.5,16.6-7.1l0,0V13.6L41.6,13.6C41.6,13.6,41.6,13.6,41.6,13.6L41.6,13.6z M10.5,24.7c2.8,2.2,8.1,3.7,14.5,3.7   c6.4,0,11.8-1.4,14.5-3.7v3.6c-0.7,2.3-6.5,4.7-14.5,4.7c-8.1,0-13.8-2.4-14.5-4.7V24.7L10.5,24.7z M39.5,21.6   c-0.7,2.3-6.5,4.7-14.5,4.7c-8.1,0-13.8-2.4-14.5-4.7v-4.3c3,2.4,8.9,3.6,14.5,3.6c5.6,0,11.5-1.2,14.5-3.6V21.6L39.5,21.6z    M25,8.4c8.4,0,14.6,2.8,14.6,5.2c0,2.5-6.3,5.2-14.6,5.2c-8.4,0-14.6-2.8-14.6-5.2C10.4,11.1,16.6,8.4,25,8.4L25,8.4z M25,39.6   c-7.7,0-13.6-2.3-14.5-4.6v-3.5c2.8,2.2,8.1,3.7,14.5,3.7c6.4,0,11.8-1.4,14.5-3.7V35C38.6,37.3,32.7,39.6,25,39.6L25,39.6z    M25,39.6"></path>
+                                        </g>
+                                    </svg>
+                                    <a href="https://zb.oschina.net/project/1a492ae477efc3e170e875ea1ada1ffe" target="_blank" title="前端二次开发">前端二次开发</a>
+                                    <span class="money">
+                                                                                    竞标报价
+                                                                            </span>
+                                    <div class="clear"></div>
+                                </li>
+                                                                        </ul>
+
+                </div>
+
+                <div class="cr_list">
+                    <strong>最新找人项目 <a title="更多找人" style="text-decoration: none;color: #666;margin-right: 10px;float: right;" target="_blank" href="https://zb.oschina.net/developer">更多»</a></strong>
+                    <ul>
+                                                                                     <li>
+                                    <svg y="0px" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" xml:space="preserve" x="0px" viewBox="0 0 50 50" enable-background="new 0 0 50 50">
+                                        <g>
+                                            <circle stroke-width="2" stroke-miterlimit="10" stroke="#777" r="6.4" fill="none" cy="15.4" cx="16.1"></circle>
+                                            <circle stroke-width="2" stroke-miterlimit="10" stroke="#777" r="6.4" fill="none" cy="15.4" cx="34.8"></circle>
+                                            <circle stroke-width="2" stroke-miterlimit="10" stroke="#777" r="6.4" fill="none" cy="34.4" cx="16.1"></circle>
+                                            <circle stroke-width="2" stroke-miterlimit="10" stroke="#777" r="6.4" fill="none" cy="34.4" cx="34.8"></circle>
+                                        </g>
+                                    </svg>
+                                    <a href="https://zb.oschina.net/hire/3fe03e8658bb012fe0f18ef442081d34" target="_blank" title="找flash交互程序高手，完成银行业务受理模拟器">找flash交互程序高手，完成银行业务受理模拟器</a>
+                                    <span class="money">
+                                                                            ¥8,000
+                                                                        </span>
+                                    <div class="clear"></div>
+                                </li>
+                                                                                                                <li>
+                                    <svg y="0px" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" xml:space="preserve" x="0px" viewBox="0 0 50 50" enable-background="new 0 0 50 50">
+                                        <g>
+                                            <circle stroke-width="2" stroke-miterlimit="10" stroke="#777" r="6.4" fill="none" cy="15.4" cx="16.1"></circle>
+                                            <circle stroke-width="2" stroke-miterlimit="10" stroke="#777" r="6.4" fill="none" cy="15.4" cx="34.8"></circle>
+                                            <circle stroke-width="2" stroke-miterlimit="10" stroke="#777" r="6.4" fill="none" cy="34.4" cx="16.1"></circle>
+                                            <circle stroke-width="2" stroke-miterlimit="10" stroke="#777" r="6.4" fill="none" cy="34.4" cx="34.8"></circle>
+                                        </g>
+                                    </svg>
+                                    <a href="https://zb.oschina.net/hire/b733620d631576f1764ef1aa3d777d00" target="_blank" title="找Java高手负责开发培训管理的App后台和接口">找Java高手负责开发培训管理的App后台和接口</a>
+                                    <span class="money">
+                                                                            ¥11,000
+                                                                        </span>
+                                    <div class="clear"></div>
+                                </li>
+                                                                                                                <li>
+                                    <svg y="0px" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" xml:space="preserve" x="0px" viewBox="0 0 50 50" enable-background="new 0 0 50 50">
+                                        <g>
+                                            <circle stroke-width="2" stroke-miterlimit="10" stroke="#777" r="6.4" fill="none" cy="15.4" cx="16.1"></circle>
+                                            <circle stroke-width="2" stroke-miterlimit="10" stroke="#777" r="6.4" fill="none" cy="15.4" cx="34.8"></circle>
+                                            <circle stroke-width="2" stroke-miterlimit="10" stroke="#777" r="6.4" fill="none" cy="34.4" cx="16.1"></circle>
+                                            <circle stroke-width="2" stroke-miterlimit="10" stroke="#777" r="6.4" fill="none" cy="34.4" cx="34.8"></circle>
+                                        </g>
+                                    </svg>
+                                    <a href="https://zb.oschina.net/hire/718ed3671f303534945c457d078b5287" target="_blank" title="Java开发后台对接-保险接口">Java开发后台对接-保险接口</a>
+                                    <span class="money">
+                                                                            ¥18,000
+                                                                        </span>
+                                    <div class="clear"></div>
+                                </li>
+                                                                                                                <li>
+                                    <svg y="0px" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" xml:space="preserve" x="0px" viewBox="0 0 50 50" enable-background="new 0 0 50 50">
+                                        <g>
+                                            <circle stroke-width="2" stroke-miterlimit="10" stroke="#777" r="6.4" fill="none" cy="15.4" cx="16.1"></circle>
+                                            <circle stroke-width="2" stroke-miterlimit="10" stroke="#777" r="6.4" fill="none" cy="15.4" cx="34.8"></circle>
+                                            <circle stroke-width="2" stroke-miterlimit="10" stroke="#777" r="6.4" fill="none" cy="34.4" cx="16.1"></circle>
+                                            <circle stroke-width="2" stroke-miterlimit="10" stroke="#777" r="6.4" fill="none" cy="34.4" cx="34.8"></circle>
+                                        </g>
+                                    </svg>
+                                    <a href="https://zb.oschina.net/hire/d434b83a21837e421f362ca95285d6b0" target="_blank" title="后台管理网站权限控制">后台管理网站权限控制</a>
+                                    <span class="money">
+                                                                            ¥2,000
+                                                                        </span>
+                                    <div class="clear"></div>
+                                </li>
+                                                                                                                <li>
+                                    <svg y="0px" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" xml:space="preserve" x="0px" viewBox="0 0 50 50" enable-background="new 0 0 50 50">
+                                        <g>
+                                            <circle stroke-width="2" stroke-miterlimit="10" stroke="#777" r="6.4" fill="none" cy="15.4" cx="16.1"></circle>
+                                            <circle stroke-width="2" stroke-miterlimit="10" stroke="#777" r="6.4" fill="none" cy="15.4" cx="34.8"></circle>
+                                            <circle stroke-width="2" stroke-miterlimit="10" stroke="#777" r="6.4" fill="none" cy="34.4" cx="16.1"></circle>
+                                            <circle stroke-width="2" stroke-miterlimit="10" stroke="#777" r="6.4" fill="none" cy="34.4" cx="34.8"></circle>
+                                        </g>
+                                    </svg>
+                                    <a href="https://zb.oschina.net/hire/b6c49dfead99fc6de621b750e536cf7b" target="_blank" title="网站美工UI">网站美工UI</a>
+                                    <span class="money">
+                                                                            ¥1,500
+                                                                        </span>
+                                    <div class="clear"></div>
+                                </li>
+                                                                        </ul>
+                    
+                    <strong>最新作品与服务 <a title="更多作品和服务" style="text-decoration: none;color: #666;margin-right: 10px;float: right;" target="_blank" href="https://zb.oschina.net/market">更多»</a></strong>
+                    <ul>
+                                                                                     <li>
+                                    <svg y="0px" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" xml:space="preserve" x="0px" viewBox="0 0 50 50" enable-background="new 0 0 50 50">
+                                        <g>
+                                            <circle stroke-width="2" stroke-miterlimit="10" stroke="#777" r="6.4" fill="none" cy="15.4" cx="16.1"></circle>
+                                            <circle stroke-width="2" stroke-miterlimit="10" stroke="#777" r="6.4" fill="none" cy="15.4" cx="34.8"></circle>
+                                            <circle stroke-width="2" stroke-miterlimit="10" stroke="#777" r="6.4" fill="none" cy="34.4" cx="16.1"></circle>
+                                            <circle stroke-width="2" stroke-miterlimit="10" stroke="#777" r="6.4" fill="none" cy="34.4" cx="34.8"></circle>
+                                        </g>
+                                    </svg>
+                                    <a href="https://zb.oschina.net/market/opus/151271_626" target="_blank" title="单页面 - 前端开发">单页面 - 前端开发</a>
+                                    <span class="money">¥200</span>
+                                    <div class="clear"></div>
+                                </li>
+                                                                                                                <li>
+                                    <svg y="0px" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" xml:space="preserve" x="0px" viewBox="0 0 50 50" enable-background="new 0 0 50 50">
+                                        <g>
+                                            <circle stroke-width="2" stroke-miterlimit="10" stroke="#777" r="6.4" fill="none" cy="15.4" cx="16.1"></circle>
+                                            <circle stroke-width="2" stroke-miterlimit="10" stroke="#777" r="6.4" fill="none" cy="15.4" cx="34.8"></circle>
+                                            <circle stroke-width="2" stroke-miterlimit="10" stroke="#777" r="6.4" fill="none" cy="34.4" cx="16.1"></circle>
+                                            <circle stroke-width="2" stroke-miterlimit="10" stroke="#777" r="6.4" fill="none" cy="34.4" cx="34.8"></circle>
+                                        </g>
+                                    </svg>
+                                    <a href="https://zb.oschina.net/market/opus/2351717_621" target="_blank" title="微信企业号开发有框架，可快速二次开发定制">微信企业号开发有框架，可快速二次开发定制</a>
+                                    <span class="money">¥1,000</span>
+                                    <div class="clear"></div>
+                                </li>
+                                                                                                                <li>
+                                    <svg y="0px" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" xml:space="preserve" x="0px" viewBox="0 0 50 50" enable-background="new 0 0 50 50">
+                                        <g>
+                                            <circle stroke-width="2" stroke-miterlimit="10" stroke="#777" r="6.4" fill="none" cy="15.4" cx="16.1"></circle>
+                                            <circle stroke-width="2" stroke-miterlimit="10" stroke="#777" r="6.4" fill="none" cy="15.4" cx="34.8"></circle>
+                                            <circle stroke-width="2" stroke-miterlimit="10" stroke="#777" r="6.4" fill="none" cy="34.4" cx="16.1"></circle>
+                                            <circle stroke-width="2" stroke-miterlimit="10" stroke="#777" r="6.4" fill="none" cy="34.4" cx="34.8"></circle>
+                                        </g>
+                                    </svg>
+                                    <a href="https://zb.oschina.net/market/opus/1476085_620" target="_blank" title="iOS开发 - 2年8个月经验 - 接外包,时间充裕">iOS开发 - 2年8个月经验 - 接外包,时间充裕</a>
+                                    <span class="money">¥800</span>
+                                    <div class="clear"></div>
+                                </li>
+                                                                                                                <li>
+                                    <svg y="0px" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" xml:space="preserve" x="0px" viewBox="0 0 50 50" enable-background="new 0 0 50 50">
+                                        <g>
+                                            <circle stroke-width="2" stroke-miterlimit="10" stroke="#777" r="6.4" fill="none" cy="15.4" cx="16.1"></circle>
+                                            <circle stroke-width="2" stroke-miterlimit="10" stroke="#777" r="6.4" fill="none" cy="15.4" cx="34.8"></circle>
+                                            <circle stroke-width="2" stroke-miterlimit="10" stroke="#777" r="6.4" fill="none" cy="34.4" cx="16.1"></circle>
+                                            <circle stroke-width="2" stroke-miterlimit="10" stroke="#777" r="6.4" fill="none" cy="34.4" cx="34.8"></circle>
+                                        </g>
+                                    </svg>
+                                    <a href="https://zb.oschina.net/market/opus/2758001_619" target="_blank" title="专业架构设计">专业架构设计</a>
+                                    <span class="money">¥1,000</span>
+                                    <div class="clear"></div>
+                                </li>
+                                                                                                                <li>
+                                    <svg y="0px" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" xml:space="preserve" x="0px" viewBox="0 0 50 50" enable-background="new 0 0 50 50">
+                                        <g>
+                                            <circle stroke-width="2" stroke-miterlimit="10" stroke="#777" r="6.4" fill="none" cy="15.4" cx="16.1"></circle>
+                                            <circle stroke-width="2" stroke-miterlimit="10" stroke="#777" r="6.4" fill="none" cy="15.4" cx="34.8"></circle>
+                                            <circle stroke-width="2" stroke-miterlimit="10" stroke="#777" r="6.4" fill="none" cy="34.4" cx="16.1"></circle>
+                                            <circle stroke-width="2" stroke-miterlimit="10" stroke="#777" r="6.4" fill="none" cy="34.4" cx="34.8"></circle>
+                                        </g>
+                                    </svg>
+                                    <a href="https://zb.oschina.net/market/opus/2722506_609" target="_blank" title="云会议">云会议</a>
+                                    <span class="money">¥100,000</span>
+                                    <div class="clear"></div>
+                                </li>
+                                                                        </ul>
+                    
+                </div>
+                <div class="clear"></div>
+            </div>
+        </div>
+    </div>
+                        <div style="margin-top: 10px;">
+        <a name="index_banner_two">
+        </a><a href="http://www.jpush.cn/?from=china01" target="_blank" title="">
+            <img src="./osc_files/index_banner_two_mnVBF.jpg" width="708" height="50">
+        </a>
+         </div>
+    
+    <div id="HomeTopicPanel" class="mod TopicList">
+        <h2>
+            <span class="right">
+                <a href="http://www.oschina.net/question/ask">我要提问»</a>
+            </span>
+            <a href="http://www.oschina.net/question" class="title">技术问答</a>
+            <span class="lnks">
+                                    <a href="http://www.oschina.net/question?catalog=1">技术问答</a>
+                                    <a href="http://www.oschina.net/question?catalog=2">技术分享</a>
+                                    <a href="http://www.oschina.net/question?catalog=3">IT大杂烩</a>
+                                    <a href="http://www.oschina.net/question?catalog=100">职业生涯</a>
+                                    <a href="http://www.oschina.net/question?catalog=4">站务/建议</a>
+                                <a href="http://www.oschina.net/search?scope=bbs&amp;q=%E5%BE%AE%E7%94%B5%E5%BD%B1" style="color:#A00;">微电影</a>
+            </span>
+        </h2>
+        <style>
+            .hottags a {
+                background-color: #E0EAF1;
+                border-bottom: 1px solid #3E6D8E;
+                border-right: 1px solid #7F9FB6;
+                color: #3E6D8E;
+                font-size: 10pt;
+                line-height: 2.4;
+                margin: 2px 2px 2px 0;
+                padding: 2px 5px;
+                text-decoration: none;
+                white-space: nowrap;
+            }
+
+            .hottags a:hover {
+                background-color: #3E6D8E;
+                color: #fff;
+            }
+        </style>
+        <div class="body">
+            <div class="hottags">
+                <strong>热门标签：</strong>
+                <a href="http://www.oschina.net/question/tag/OSCHINA%E5%8E%9F%E5%88%9B%E7%BF%BB%E8%AF%91">原创翻译</a>
+                <a href="http://www.oschina.net/question/tag/oschina">OSCHINA</a>
+                <a href="http://www.oschina.net/question/tag/java">Java</a>
+                <a href="http://www.oschina.net/question/tag/cpp">C/C++</a>
+                <a href="http://www.oschina.net/question/tag/php">PHP</a>
+                <a href="http://www.oschina.net/question/tag/python">Python</a>
+                <a href="http://www.oschina.net/question/tag/linux">Linux</a>
+                <a href="http://www.oschina.net/android">Android</a>
+                <a href="http://www.oschina.net/ios">iOS</a>
+                <a href="http://www.oschina.net/question/tag/mysql">MySQL</a>
+            </div>
+            <div class="clear"></div>
+                                        <table width="100%" cellspacing="0" cellpadding="0" id="q_list_1">
+                                                                                                                                <tbody><tr>
+                                <td class="thread"><a href="http://www.oschina.net/question/2652078_2177461" target="_blank" title="OSC 大咖说 | 专访当当架构部总监史海峰： 从程序员到架构师，做一名长情的变革者" class="thread_type_1 top">[顶]OSC 大咖说 | 专访当当架构部总监史海峰： 从程序员...</a><span class="stat">4小时前
+                                    By 宇智波唐嫣</span></td>
+                                <td class="last_post">20回/4471阅</td>
+                            </tr>
+                                                                                                                                                        <tr>
+                                <td class="thread"><a href="http://www.oschina.net/question/2652313_2177113" target="_blank" title="【领取福利】参与码云平台问卷调查，领取开源礼品" class="thread_type_1 top">[顶]【领取福利】参与码云平台问卷调查，领取开源礼品</a><span class="stat">5小时前
+                                    By DA熊</span></td>
+                                <td class="last_post">4回/315阅</td>
+                            </tr>
+                                                                                                                                                        <tr>
+                                <td class="thread"><a href="http://www.oschina.net/question/1774694_2175833" target="_blank" title="OSC 第 117 期高手问答 -- 『企业级 JavaEE 架构设计精深实践』作者悠悠然然访谈" class="thread_type_2 top">[顶]OSC 第 117 期高手问答 -- 『企业级 JavaEE 架构设...</a><span class="stat">2天前
+                                    By 悠悠然然</span></td>
+                                <td class="last_post">69回/5390阅</td>
+                            </tr>
+                                                                                                                                                        <tr>
+                                <td class="thread"><a href="http://www.oschina.net/question/2371877_2177877" target="_blank" title="tomcat启动出错，第一次遇到这问题，百度也找不到想要的答案" class="thread_type_2">tomcat启动出错，第一次遇到这问题，百度也找不到想...</a><span class="stat">14分钟前
+                                    By 沧海_Sea</span></td>
+                                <td class="last_post">1回/38阅</td>
+                            </tr>
+                                                                                                                                                        <tr>
+                                <td class="thread"><a href="http://www.oschina.net/question/1462765_2177876" target="_blank" title="js原生的window.innerWidth  jQuery有替代方法吗" class="thread_type_2">js原生的window.innerWidth  jQuery有替代方法吗...</a><span class="stat">17分钟前
+                                    By 沧海_Sea</span></td>
+                                <td class="last_post">1回/15阅</td>
+                            </tr>
+                                                                                                                                                        <tr>
+                                <td class="thread"><a href="http://www.oschina.net/question/1456280_2177878" target="_blank" title="jFinal 操作oracle问题" class="thread_type_2">jFinal 操作oracle问题</a><span class="stat">39分钟前
+                                    By 自由自在的小鱼</span></td>
+                                <td class="last_post">1回/26阅</td>
+                            </tr>
+                                                                                                                                                        <tr>
+                                <td class="thread"><a href="http://www.oschina.net/question/150744_2177879" target="_blank" title="阿里云无法连接ssh，服务器出现以下问题，求解答" class="thread_type_2">阿里云无法连接ssh，服务器出现以下问题，求解答</a><span class="stat">59分钟前
+                                    By 梁正汀</span></td>
+                                <td class="last_post">0回/17阅</td>
+                            </tr>
+                                                                                                                                                        <tr>
+                                <td class="thread"><a href="http://www.oschina.net/question/2339978_2177875" target="_blank" title="Spring MVC controller" class="thread_type_2">Spring MVC controller</a><span class="stat">1小时前
+                                    By 负心杏</span></td>
+                                <td class="last_post">1回/44阅</td>
+                            </tr>
+                                                                                                                                                        <tr>
+                                <td class="thread"><a href="http://www.oschina.net/question/2245985_2177844" target="_blank" title="netty5 写的客户端 在 channelActive 调用ctx.writeAndFlush(buildHeatBeat()); 发送失败 是怎么回事？ " class="thread_type_2">netty5 写的客户端 在 channelActive 调用ctx.wri...</a><span class="stat">2小时前
+                                    By 兮风古道</span></td>
+                                <td class="last_post">1回/51阅</td>
+                            </tr>
+                                                                                                                                                        <tr>
+                                <td class="thread"><a href="http://www.oschina.net/question/197184_2177872" target="_blank" title="一个面试题，算法相关" class="thread_type_2">一个面试题，算法相关</a><span class="stat">3小时前
+                                    By IdleMan...</span></td>
+                                <td class="last_post">0回/77阅</td>
+                            </tr>
+                                                                                                                                                        <tr>
+                                <td class="thread"><a href="http://www.oschina.net/question/2763082_2177870" target="_blank" title="请教一下有没有做淘宝那种发货自动发送短信的软件或者网站的？" class="thread_type_2">请教一下有没有做淘宝那种发货自动发送短信的软件或...</a><span class="stat">3小时前
+                                    By fromdtor</span></td>
+                                <td class="last_post">1回/57阅</td>
+                            </tr>
+                                                                                                                                                        <tr>
+                                <td class="thread"><a href="http://www.oschina.net/question/1380600_2177850" target="_blank" title="手机二维码登录是怎么实现的？qq,微信等" class="thread_type_2">手机二维码登录是怎么实现的？qq,微信等</a><span class="stat">5小时前
+                                    By 碳素云信息技术</span></td>
+                                <td class="last_post">1回/78阅</td>
+                            </tr>
+                                                                                                                                                        <tr>
+                                <td class="thread"><a href="http://www.oschina.net/question/2327731_2177857" target="_blank" title="如何通过android 制作地图（不考虑百度，高德，Google SDK）" class="thread_type_2">如何通过android 制作地图（不考虑百度，高德，Goo...</a><span class="stat">6小时前
+                                    By zl481923...</span></td>
+                                <td class="last_post">0回/55阅</td>
+                            </tr>
+                                                                                                                                                        <tr>
+                                <td class="thread"><a href="http://www.oschina.net/question/2524434_2177846" target="_blank" title="在当今现状下如何学习VR？" class="thread_type_2">在当今现状下如何学习VR？</a><span class="stat">7小时前
+                                    By 描绘人生</span></td>
+                                <td class="last_post">0回/86阅</td>
+                            </tr>
+                                                                                                                                                        <tr>
+                                <td class="thread"><a href="http://www.oschina.net/question/560755_2177843" target="_blank" title="C语言 Cmake 导入第三方库问题,CMake 调用第三方库的Makefile" class="thread_type_2">C语言 Cmake 导入第三方库问题,CMake 调用第三方库...</a><span class="stat">14小时前
+                                    By 黑牙菜菜</span></td>
+                                <td class="last_post">0回/48阅</td>
+                            </tr>
+                                                                                                                                                        <tr>
+                                <td class="thread"><a href="http://www.oschina.net/question/2762825_2177830" target="_blank" title="Jfinal如何读取模板文件，并以变量形式赋值到另一个beetl模板文件中,性能上会有折扣吗？" class="thread_type_2">Jfinal如何读取模板文件，并以变量形式赋值到另一个...</a><span class="stat">35分钟前
+                                    By 闲大赋</span></td>
+                                <td class="last_post">2回/37阅</td>
+                            </tr>
+                                                                                                                                                        <tr>
+                                <td class="thread"><a href="http://www.oschina.net/question/2362904_2177819" target="_blank" title="大二可以出去？java专业大二学渣一枚..." class="thread_type_2">大二可以出去？java专业大二学渣一枚...</a><span class="stat">1小时前
+                                    By 大巧不工</span></td>
+                                <td class="last_post">4回/119阅</td>
+                            </tr>
+                                                                                                                                                        <tr>
+                                <td class="thread"><a href="http://www.oschina.net/question/2477708_2177820" target="_blank" title="大家都在用MySQL什么图形界面？" class="thread_type_2">大家都在用MySQL什么图形界面？</a><span class="stat">1小时前
+                                    By sprouting</span></td>
+                                <td class="last_post">24回/427阅</td>
+                            </tr>
+                                                                                                                                                        <tr>
+                                <td class="thread"><a href="http://www.oschina.net/question/2291672_2177785" target="_blank" title="请教..为什么Idea 下javaWeb开发的时候提示 NB: JAVA_HOME should point to a JDK not a JRE" class="thread_type_2">请教..为什么Idea 下javaWeb开发的时候提示 NB: JA...</a><span class="stat">1小时前
+                                    By 百世经纶之傲笑红尘</span></td>
+                                <td class="last_post">3回/46阅</td>
+                            </tr>
+                                                                                                                                                        <tr>
+                                <td class="thread"><a href="http://www.oschina.net/question/703355_2177773" target="_blank" title="一个诡异的php查找字符串问题" class="thread_type_2">一个诡异的php查找字符串问题</a><span class="stat">2小时前
+                                    By Tuesday</span></td>
+                                <td class="last_post">9回/137阅</td>
+                            </tr>
+                                                            </tbody></table>
+                            <table width="100%" cellspacing="0" cellpadding="0" id="q_list_2" style="display:none;">
+                                                                                                                                <tbody><tr>
+                                <td class="thread"><a href="http://www.oschina.net/question/2306779_2177163" target="_blank" title="Hibernate和JDBC混合使用" class="thread_type_2">Hibernate和JDBC混合使用</a><span class="stat">2小时前
+                                    By 沧海_Sea</span></td>
+                                <td class="last_post">6回/134阅</td>
+                            </tr>
+                                                                                                                                                        <tr>
+                                <td class="thread"><a href="http://www.oschina.net/question/2690200_2177569" target="_blank" title="如何在linux（debian）系统中，将python3.4更新到python3.5?" class="thread_type_2">如何在linux（debian）系统中，将python3.4更新到p...</a><span class="stat">3小时前
+                                    By fromdtor</span></td>
+                                <td class="last_post">6回/104阅</td>
+                            </tr>
+                                                                                                                                                        <tr>
+                                <td class="thread"><a href="http://www.oschina.net/question/2308596_2177831" target="_blank" title="关于Python匿名函数的问题" class="thread_type_2">关于Python匿名函数的问题</a><span class="stat">4小时前
+                                    By 一碗粥</span></td>
+                                <td class="last_post">4回/65阅</td>
+                            </tr>
+                                                                                                                                                        <tr>
+                                <td class="thread"><a href="http://www.oschina.net/question/1453039_2177838" target="_blank" title="jfinal偶尔出现卡顿" class="thread_type_2">jfinal偶尔出现卡顿</a><span class="stat">4小时前
+                                    By 沧海_Sea</span></td>
+                                <td class="last_post">3回/83阅</td>
+                            </tr>
+                                                                                                                                                        <tr>
+                                <td class="thread"><a href="http://www.oschina.net/question/1858609_2177561" target="_blank" title="关于IOS的尴尬" class="thread_type_1">关于IOS的尴尬</a><span class="stat">7小时前
+                                    By lymfcatl</span></td>
+                                <td class="last_post">6回/202阅</td>
+                            </tr>
+                                                                                                                                                        <tr>
+                                <td class="thread"><a href="http://www.oschina.net/question/2757378_2176937" target="_blank" title="python对结构相同的表格进行纵向合并" class="thread_type_2">python对结构相同的表格进行纵向合并</a><span class="stat">15小时前
+                                    By fromdtor</span></td>
+                                <td class="last_post">1回/76阅</td>
+                            </tr>
+                                                                                                                                                        <tr>
+                                <td class="thread"><a href="http://www.oschina.net/question/2283492_2177835" target="_blank" title="JFinal实体问题" class="thread_type_2">JFinal实体问题</a><span class="stat">16小时前
+                                    By tanker</span></td>
+                                <td class="last_post">2回/65阅</td>
+                            </tr>
+                                                                                                                                                        <tr>
+                                <td class="thread"><a href="http://www.oschina.net/question/219875_2177837" target="_blank" title="jfinal用config类启动工程无法用fastjson转换,而jetty:run就可以" class="thread_type_2">jfinal用config类启动工程无法用fastjson转换,而j...</a><span class="stat">17小时前
+                                    By JFinal</span></td>
+                                <td class="last_post">1回/50阅</td>
+                            </tr>
+                                                                                                                                                        <tr>
+                                <td class="thread"><a href="http://www.oschina.net/question/219875_2177836" target="_blank" title="jfinal在renderJson时候怎么把对象中值为null的属性转为&quot;&quot;空字符串" class="thread_type_2">jfinal在renderJson时候怎么把对象中值为null的属性...</a><span class="stat">17小时前
+                                    By JFinal</span></td>
+                                <td class="last_post">1回/38阅</td>
+                            </tr>
+                                                                                                                                                        <tr>
+                                <td class="thread"><a href="http://www.oschina.net/question/657991_2177825" target="_blank" title="gradle 如何配置 依赖本地另一个项目" class="thread_type_2">gradle 如何配置 依赖本地另一个项目</a><span class="stat">17小时前
+                                    By Feng_Yu</span></td>
+                                <td class="last_post">1回/23阅</td>
+                            </tr>
+                                                                                                                                                        <tr>
+                                <td class="thread"><a href="http://www.oschina.net/question/572254_2177834" target="_blank" title="java 连接socks5代理 time out" class="thread_type_2">java 连接socks5代理 time out</a><span class="stat">18小时前
+                                    By chworld...</span></td>
+                                <td class="last_post">0回/17阅</td>
+                            </tr>
+                                                                                                                                                        <tr>
+                                <td class="thread"><a href="http://www.oschina.net/question/2358239_2177833" target="_blank" title="oracle CURSOR 游标已打开" class="thread_type_2">oracle CURSOR 游标已打开</a><span class="stat">18小时前
+                                    By 黎羽</span></td>
+                                <td class="last_post">0回/10阅</td>
+                            </tr>
+                                                                                                                                                        <tr>
+                                <td class="thread"><a href="http://www.oschina.net/question/2761499_2177673" target="_blank" title="MyEclipse每次保存时都会提示java.lang.NullPointerException" class="thread_type_2">MyEclipse每次保存时都会提示java.lang.NullPoint...</a><span class="stat">18小时前
+                                    By 南湖船老大</span></td>
+                                <td class="last_post">3回/78阅</td>
+                            </tr>
+                                                                                                                                                        <tr>
+                                <td class="thread"><a href="http://www.oschina.net/question/1256937_2177832" target="_blank" title="jQuery Mobile 表单报错fieldset，求救？" class="thread_type_2">jQuery Mobile 表单报错fieldset，求救？...</a><span class="stat">18小时前
+                                    By yongu</span></td>
+                                <td class="last_post">0回/11阅</td>
+                            </tr>
+                                                                                                                                                        <tr>
+                                <td class="thread"><a href="http://www.oschina.net/question/2762821_2177829" target="_blank" title="求几个常用的流行学习降维代码？可以用于高维图像降维的" class="thread_type_2">求几个常用的流行学习降维代码？可以用于高维图像降...</a><span class="stat">19小时前
+                                    By blog_cn_p...</span></td>
+                                <td class="last_post">0回/15阅</td>
+                            </tr>
+                                                                                                                                                        <tr>
+                                <td class="thread"><a href="http://www.oschina.net/question/2280751_2177782" target="_blank" title="这种乱七八糟的数组如何理解" class="thread_type_2">这种乱七八糟的数组如何理解</a><span class="stat">20小时前
+                                    By youfather</span></td>
+                                <td class="last_post">1回/126阅</td>
+                            </tr>
+                                                                                                                                                        <tr>
+                                <td class="thread"><a href="http://www.oschina.net/question/264056_2177806" target="_blank" title="有人做过论坛发帖过滤吗" class="thread_type_2">有人做过论坛发帖过滤吗</a><span class="stat">20小时前
+                                    By 南湖船老大</span></td>
+                                <td class="last_post">1回/54阅</td>
+                            </tr>
+                                                                                                                                                        <tr>
+                                <td class="thread"><a href="http://www.oschina.net/question/2289549_2177826" target="_blank" title="怎么样能用thrift做代理转发请求，到真正的后端thrift service呢？" class="thread_type_2">怎么样能用thrift做代理转发请求，到真正的后端thr...</a><span class="stat">20小时前
+                                    By 潜心修炼呀</span></td>
+                                <td class="last_post">0回/28阅</td>
+                            </tr>
+                                                                                                                                                        <tr>
+                                <td class="thread"><a href="http://www.oschina.net/question/2681663_2177824" target="_blank" title="hive 创建数据表失败" class="thread_type_2">hive 创建数据表失败</a><span class="stat">20小时前
+                                    By huan</span></td>
+                                <td class="last_post">1回/24阅</td>
+                            </tr>
+                                                                                                                                                        <tr>
+                                <td class="thread"><a href="http://www.oschina.net/question/2664818_2177784" target="_blank" title="加载 解析xml中的数据" class="thread_type_2">加载 解析xml中的数据</a><span class="stat">20小时前
+                                    By 西北醉儒</span></td>
+                                <td class="last_post">1回/26阅</td>
+                            </tr>
+                                                            </tbody></table>
+                            <table width="100%" cellspacing="0" cellpadding="0" id="q_list_3" style="display:none;">
+                                                                                                                                <tbody><tr>
+                                <td class="thread"><a href="http://www.oschina.net/question/2752121_2177811" target="_blank" title="使用js编写代码，浏览器控制台出现Cannot read property &#39;length&#39; of null" class="thread_type_2">使用js编写代码，浏览器控制台出现Cannot read pro...</a><span class="stat">21小时前
+                                    By SVD</span></td>
+                                <td class="last_post">2回/54阅</td>
+                            </tr>
+                                                                                                                                                        <tr>
+                                <td class="thread"><a href="http://www.oschina.net/question/2762336_2177814" target="_blank" title="数据库里是int，在页面上面要是String并且用下拉列表的形式显示，添加到数据库时在变成int类型，" class="thread_type_2">数据库里是int，在页面上面要是String并且用下拉列...</a><span class="stat">21小时前
+                                    By 魔力猫</span></td>
+                                <td class="last_post">1回/37阅</td>
+                            </tr>
+                                                                                                                                                        <tr>
+                                <td class="thread"><a href="http://www.oschina.net/question/2762713_2177822" target="_blank" title="按字典序词频统计  最后总会出现一下莫名的段错误   求大神指点！" class="thread_type_2">按字典序词频统计  最后总会出现一下莫名的段错误 ...</a><span class="stat">21小时前
+                                    By Vermouth0...</span></td>
+                                <td class="last_post">0回/12阅</td>
+                            </tr>
+                                                                                                                                                        <tr>
+                                <td class="thread"><a href="http://www.oschina.net/question/1275171_2177800" target="_blank" title="请教js解析Json的一个问题" class="thread_type_2">请教js解析Json的一个问题</a><span class="stat">21小时前
+                                    By 抓瓦工人</span></td>
+                                <td class="last_post">3回/67阅</td>
+                            </tr>
+                                                                                                                                                        <tr>
+                                <td class="thread"><a href="http://www.oschina.net/question/2762727_2177821" target="_blank" title="maven编译问题, 着了魔一样的Compilation failure" class="thread_type_2">maven编译问题, 着了魔一样的Compilation failure...</a><span class="stat">21小时前
+                                    By 长空真人</span></td>
+                                <td class="last_post">0回/21阅</td>
+                            </tr>
+                                                                                                                                                        <tr>
+                                <td class="thread"><a href="http://www.oschina.net/question/2762690_2177818" target="_blank" title="c语言实现二叉树线索化问题" class="thread_type_2">c语言实现二叉树线索化问题</a><span class="stat">22小时前
+                                    By Cocoo光</span></td>
+                                <td class="last_post">0回/24阅</td>
+                            </tr>
+                                                                                                                                                        <tr>
+                                <td class="thread"><a href="http://www.oschina.net/question/2526385_2177817" target="_blank" title="网管员的手机有妙用：一键报障与工单运维IT系统" class="thread_type_1">网管员的手机有妙用：一键报障与工单运维IT系统</a><span class="stat">23小时前
+                                    By 畅享择天</span></td>
+                                <td class="last_post">0回/40阅</td>
+                            </tr>
+                                                                                                                                                        <tr>
+                                <td class="thread"><a href="http://www.oschina.net/question/2407035_2177805" target="_blank" title="根据经纬度在谷歌地图显示的问题" class="thread_type_2">根据经纬度在谷歌地图显示的问题</a><span class="stat">23小时前
+                                    By 风中蜡烛</span></td>
+                                <td class="last_post">1回/33阅</td>
+                            </tr>
+                                                                                                                                                        <tr>
+                                <td class="thread"><a href="http://www.oschina.net/question/1173645_2177529" target="_blank" title="ElasticSearch1.7升级到2.x  原来api中的filter废弃了？" class="thread_type_2">ElasticSearch1.7升级到2.x  原来api中的filter废弃...</a><span class="stat">23小时前
+                                    By 风中蜡烛</span></td>
+                                <td class="last_post">2回/68阅</td>
+                            </tr>
+                                                                                                                                                        <tr>
+                                <td class="thread"><a href="http://www.oschina.net/question/2686820_2177812" target="_blank" title="关于maven中jfinal验证码的问题" class="thread_type_2">关于maven中jfinal验证码的问题</a><span class="stat">23小时前
+                                    By JFinal</span></td>
+                                <td class="last_post">1回/43阅</td>
+                            </tr>
+                                                                                                                                                        <tr>
+                                <td class="thread"><a href="http://www.oschina.net/question/568367_2177797" target="_blank" title="model保存后主键id与真实数据不同" class="thread_type_2">model保存后主键id与真实数据不同</a><span class="stat">23小时前
+                                    By tinshen</span></td>
+                                <td class="last_post">3回/50阅</td>
+                            </tr>
+                                                                                                                                                        <tr>
+                                <td class="thread"><a href="http://www.oschina.net/question/2532185_2177799" target="_blank" title="怎么使用beetlsql的自定义方法？" class="thread_type_2">怎么使用beetlsql的自定义方法？</a><span class="stat">24小时前
+                                    By 一起私奔吧</span></td>
+                                <td class="last_post">2回/32阅</td>
+                            </tr>
+                                                                                                                                                        <tr>
+                                <td class="thread"><a href="http://www.oschina.net/question/616610_2177810" target="_blank" title="php 重庆时时彩 期号如何生成的" class="thread_type_2">php 重庆时时彩 期号如何生成的</a><span class="stat">24小时前
+                                    By 一线码农博客</span></td>
+                                <td class="last_post">0回/37阅</td>
+                            </tr>
+                                                                                                                                                        <tr>
+                                <td class="thread"><a href="http://www.oschina.net/question/943242_2177809" target="_blank" title="protobuf-net 中没有对应C++中SerializeAsString的方法，怎么用C#实现？" class="thread_type_2">protobuf-net 中没有对应C++中SerializeAsString的...</a><span class="stat">1天前
+                                    By 养猪户</span></td>
+                                <td class="last_post">0回/43阅</td>
+                            </tr>
+                                                                                                                                                        <tr>
+                                <td class="thread"><a href="http://www.oschina.net/question/2416808_2177791" target="_blank" title="java线程池如何控制并发" class="thread_type_2">java线程池如何控制并发</a><span class="stat">1天前
+                                    By SimpleStupid</span></td>
+                                <td class="last_post">7回/182阅</td>
+                            </tr>
+                                                                                                                                                        <tr>
+                                <td class="thread"><a href="http://www.oschina.net/question/2245985_2177638" target="_blank" title="netty5 客户端发服务端，但是服务端接收不到的问题，请帮忙看下。" class="thread_type_2">netty5 客户端发服务端，但是服务端接收不到的问题...</a><span class="stat">1天前
+                                    By chenlyzen</span></td>
+                                <td class="last_post">2回/103阅</td>
+                            </tr>
+                                                                                                                                                        <tr>
+                                <td class="thread"><a href="http://www.oschina.net/question/2703933_2177764" target="_blank" title="android socket异常" class="thread_type_2">android socket异常</a><span class="stat">1天前
+                                    By SimpleStupid</span></td>
+                                <td class="last_post">4回/43阅</td>
+                            </tr>
+                                                                                                                                                        <tr>
+                                <td class="thread"><a href="http://www.oschina.net/question/91955_2177808" target="_blank" title="收到网易云信的大鼠标垫，两件还顺丰" class="thread_type_1">收到网易云信的大鼠标垫，两件还顺丰</a><span class="stat">1天前
+                                    By 杨金焕</span></td>
+                                <td class="last_post">0回/62阅</td>
+                            </tr>
+                                                                                                                                                        <tr>
+                                <td class="thread"><a href="http://www.oschina.net/question/1409986_2177358" target="_blank" title="基于easy admin的样式修改" class="thread_type_2">基于easy admin的样式修改</a><span class="stat">1天前
+                                    By coskuntekin</span></td>
+                                <td class="last_post">2回/65阅</td>
+                            </tr>
+                                                                                                                                                        <tr>
+                                <td class="thread"><a href="http://www.oschina.net/question/120883_2177742" target="_blank" title="能不能从录音文件里提取语音特征，再做个性化语音合成" class="thread_type_2">能不能从录音文件里提取语音特征，再做个性化语音合成</a><span class="stat">1天前
+                                    By 断桥残雪zzw</span></td>
+                                <td class="last_post">3回/82阅</td>
+                            </tr>
+                                                            </tbody></table>
+                        <div class="area_more" id="questions_area">
+                <a href="http://www.oschina.net/question" class="more">进入讨论区&nbsp;»</a>
+
+                <div class="pages">
+                                            <a page="1" class="on">1</a>
+                                            <a page="2">2</a>
+                                            <a page="3">3</a>
+                                    </div>
+                <div class="clear"></div>
+            </div>
+        </div>
+    </div>
+
+                        <div style="margin-top: 10px;">
+        <a name="index_banner_three">
+        </a><a href="https://www.wilddog.com/?utm_source=oschina&amp;utm_medium=banner&amp;utm_campaign=orangemarch" target="_blank" title="野狗科技">
+            <img src="./osc_files/oschina-708x50-x2-1.jpg" width="708" height="50">
+        </a>
+         </div>
+    
+    <div id="HomeJobPanel" class="mod TopicList">
+    <h2>
+        <span class="right">
+            <a href="http://job.oschina.net/">进入招聘频道»</a>
+        </span>
+        <a href="http://www.oschina.net/job" class="title">开源中国·招聘</a>
+        <span class="lnks">
+            <span class="title">热门招聘城市:</span>
+                        <a href="http://job.oschina.net/search?city=%E5%8C%97%E4%BA%AC" target="_blank">北京</a>
+                        <a href="http://job.oschina.net/search?city=%E4%B8%8A%E6%B5%B7" target="_blank">上海</a>
+                        <a href="http://job.oschina.net/search?city=%E5%B9%BF%E5%B7%9E" target="_blank">广州</a>
+                        <a href="http://job.oschina.net/search?city=%E6%B7%B1%E5%9C%B3" target="_blank">深圳</a>
+                        <a href="http://job.oschina.net/search?city=%E6%88%90%E9%83%BD" target="_blank">成都</a>
+                        <a href="http://job.oschina.net/search?city=%E6%AD%A6%E6%B1%89" target="_blank">武汉</a>
+                        <a href="http://job.oschina.net/search?city=%E5%8D%97%E4%BA%AC" target="_blank">南京</a>
+                        <a href="http://job.oschina.net/search?city=%E9%95%BF%E6%B2%99" target="_blank">长沙</a>
+                        <a href="http://job.oschina.net/search?city=%E8%A5%BF%E5%AE%89" target="_blank">西安</a>
+                    </span>
+    </h2>
+    <div class="body">
+        <div class="job_search_form">
+            <form action="http://job.oschina.net/search" name="form_search_job" method="post" target="_blank">
+                <input class="key" type="text" name="key" value="" placeholder="我要找工作～">
+                <input class="button" type="button" value="找全职" onclick="searchJob(&#39;http://job.oschina.net/search&#39;)">
+                <input class="button" type="button" value="找实习" onclick="searchJob(&#39;http://job.oschina.net/practice&#39;)">
+            </form>
+        </div>
+        <div class="hot_search_tags">
+            <span class="lnks">
+                <span class="title">热门搜索:</span>
+                                                <a href="http://job.oschina.net/search/java" target="_blank">Java</a>
+                                                                <a href="http://job.oschina.net/search/php" target="_blank">PHP</a>
+                                                                <a href="http://job.oschina.net/search/ruby_on_rails" target="_blank">Ruby/Rails</a>
+                                                                <a href="http://job.oschina.net/search/hadoop" target="_blank">Hadoop</a>
+                                                                <a href="http://job.oschina.net/search/android" target="_blank">Android</a>
+                                                                <a href="http://job.oschina.net/search/nodejs" target="_blank">Node.js</a>
+                                                                <a href="http://job.oschina.net/search/ios" target="_blank">IOS</a>
+                                                                <a href="http://job.oschina.net/search/cto" target="_blank">CTO</a>
+                                            </span>
+        </div>
+                <div class="list_job">
+            <div class="list_hot_company">
+                <strong>热门招聘企业</strong>
+                <ul>
+                                                                                                    <li class="top">
+                        <div class="title">
+                            <a href="http://job.oschina.net/company/2733587_10775" target="_blank">
+                                                                Game Hollywood</a>
+                        </div>
+                        <span class="num">(6)</span>
+                    </li>
+                                                                                <li class="top">
+                        <div class="title">
+                            <a href="http://job.oschina.net/company/2724198_10741" target="_blank">
+                                                                骁龙科技</a>
+                        </div>
+                        <span class="num">(5)</span>
+                    </li>
+                                                                                <li class="top">
+                        <div class="title">
+                            <a href="http://job.oschina.net/company/2555545_10578" target="_blank">
+                                                                SenseTime商汤科技（深圳）</a>
+                        </div>
+                        <span class="num">(8)</span>
+                    </li>
+                                                                                <li class="top">
+                        <div class="title">
+                            <a href="http://job.oschina.net/company/2557197_9983" target="_blank">
+                                                                云校</a>
+                        </div>
+                        <span class="num">(4)</span>
+                    </li>
+                                                                                <li class="top">
+                        <div class="title">
+                            <a href="http://job.oschina.net/company/2532588_9771" target="_blank">
+                                                                欢呼吧体育</a>
+                        </div>
+                        <span class="num">(4)</span>
+                    </li>
+                                                                                <li class="top">
+                        <div class="title">
+                            <a href="http://job.oschina.net/company/943418_5898" target="_blank">
+                                                                开源中国</a>
+                        </div>
+                        <span class="num">(3)</span>
+                    </li>
+                                                                                <li class="top">
+                        <div class="title">
+                            <a href="http://job.oschina.net/company/1183242_2382" target="_blank">
+                                                                北京酷传科技</a>
+                        </div>
+                        <span class="num">(3)</span>
+                    </li>
+                                                                            </ul>
+            </div>
+            <div class="list_new_position">
+                <strong>最新招聘信息</strong>
+                <ul>
+                                                                                                    <li class="top">
+                        <div class="title">
+                            <span class="company-name">
+                                <a href="http://job.oschina.net/company/943418_5898" target="_blank">
+                                                                开源中国</a>
+                            </span>
+                            <span>&nbsp;-&nbsp;</span>
+                            <span class="position-name">
+                                <a href="http://job.oschina.net/position/5898_2340783_23309" target="_blank">iOS开发工程师</a>
+                            </span>
+                        </div>
+                        <span class="salary">10-18K</span>/<span class="city">深圳
+</span>
+                                                <span class="num">(
+                        <a href="http://job.oschina.net/position/5898_2340783_23309" target="_blank">1评/4676阅</a>
+                        ) </span>
+                    </li>
+                                                                                <li class="top">
+                        <div class="title">
+                            <span class="company-name">
+                                <a href="http://job.oschina.net/company/943418_5898" target="_blank">
+                                                                开源中国</a>
+                            </span>
+                            <span>&nbsp;-&nbsp;</span>
+                            <span class="position-name">
+                                <a href="http://job.oschina.net/position/5898_943418_22682" target="_blank">2016年开发工程师实习生</a>
+                            </span>
+                        </div>
+                        <span class="salary">4-8K</span>/<span class="city">深圳
+</span>
+                                                <span class="num">(
+                        <a href="http://job.oschina.net/position/5898_943418_22682" target="_blank">33评/15788阅</a>
+                        ) </span>
+                    </li>
+                                                                                <li class="top">
+                        <div class="title">
+                            <span class="company-name">
+                                <a href="http://job.oschina.net/company/943418_5898" target="_blank">
+                                                                开源中国</a>
+                            </span>
+                            <span>&nbsp;-&nbsp;</span>
+                            <span class="position-name">
+                                <a href="http://job.oschina.net/position/5898_943418_16685" target="_blank">JAVA</a>
+                            </span>
+                        </div>
+                        <span class="salary">10-15K</span>/<span class="city">深圳
+</span>
+                                                <span class="num">(
+                        <a href="http://job.oschina.net/position/5898_943418_16685" target="_blank">23评/149135阅</a>
+                        ) </span>
+                    </li>
+                                                                                <li>
+                        <div class="title">
+                            <span class="company-name">
+                                <a href="http://job.oschina.net/company/116321_10477" target="_blank">
+                                                                挖才</a>
+                            </span>
+                            <span>&nbsp;-&nbsp;</span>
+                            <span class="position-name">
+                                <a href="http://job.oschina.net/position/10477_116321_24533" target="_blank">前端工程师</a>
+                            </span>
+                        </div>
+                        <span class="salary">12-15K</span>/<span class="city">上海
+</span>
+                                                <span class="num">(
+                        <a href="http://job.oschina.net/position/10477_116321_24533" target="_blank">0评/48阅</a>
+                        ) </span>
+                    </li>
+                                                                                <li>
+                        <div class="title">
+                            <span class="company-name">
+                                <a href="http://job.oschina.net/company/256205_2178" target="_blank">
+                                                                华琳科技</a>
+                            </span>
+                            <span>&nbsp;-&nbsp;</span>
+                            <span class="position-name">
+                                <a href="http://job.oschina.net/position/2178_256205_24463" target="_blank">Java 开发工程师</a>
+                            </span>
+                        </div>
+                        <span class="salary">5-8K</span>/<span class="city">上海
+</span>
+                                                <span class="num">(
+                        <a href="http://job.oschina.net/position/2178_256205_24463" target="_blank">0评/199阅</a>
+                        ) </span>
+                    </li>
+                                                                                <li>
+                        <div class="title">
+                            <span class="company-name">
+                                <a href="http://job.oschina.net/company/256205_2178" target="_blank">
+                                                                华琳科技</a>
+                            </span>
+                            <span>&nbsp;-&nbsp;</span>
+                            <span class="position-name">
+                                <a href="http://job.oschina.net/position/2178_256205_24420" target="_blank">PHP 开发工程师</a>
+                            </span>
+                        </div>
+                        <span class="salary">5-8K</span>/<span class="city">上海
+</span>
+                                                <span class="num">(
+                        <a href="http://job.oschina.net/position/2178_256205_24420" target="_blank">1评/101阅</a>
+                        ) </span>
+                    </li>
+                                                                                <li>
+                        <div class="title">
+                            <span class="company-name">
+                                <a href="http://job.oschina.net/company/2656057_10390" target="_blank">
+                                                                租租车</a>
+                            </span>
+                            <span>&nbsp;-&nbsp;</span>
+                            <span class="position-name">
+                                <a href="http://job.oschina.net/position/10390_2656057_23785" target="_blank">PHP开发工程师</a>
+                            </span>
+                        </div>
+                        <span class="salary">8-12K</span>/<span class="city">广州
+</span>
+                                                <span class="num">(
+                        <a href="http://job.oschina.net/position/10390_2656057_23785" target="_blank">0评/301阅</a>
+                        ) </span>
+                    </li>
+                                                                                <li>
+                        <div class="title">
+                            <span class="company-name">
+                                <a href="http://job.oschina.net/company/2656057_10390" target="_blank">
+                                                                租租车</a>
+                            </span>
+                            <span>&nbsp;-&nbsp;</span>
+                            <span class="position-name">
+                                <a href="http://job.oschina.net/position/10390_2656057_23786" target="_blank">PHP高级开发工程师</a>
+                            </span>
+                        </div>
+                        <span class="salary">10-18K</span>/<span class="city">广州
+</span>
+                                                <span class="num">(
+                        <a href="http://job.oschina.net/position/10390_2656057_23786" target="_blank">0评/331阅</a>
+                        ) </span>
+                    </li>
+                                                                            </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<style>
+    #HomeJobPanel{margin:10px 10px 0 0;}
+    #HomeJobPanel .body{padding:5px 5px;}
+    #HomeJobPanel .hot_search_tags{margin-top:15px;}
+    #HomeJobPanel .hot_search_tags a{margin-right:6px;margin-left:2px;color:#000;}
+    #HomeJobPanel .hot_search_tags a:visited{color:#ad401f;}
+        #HomeJobPanel .job_search_form{margin-top:15px;}
+    #HomeJobPanel .job_search_form input.button{display:inline-block;width:80px;height:32px;line-height:32px;border:0px;background-color:#40AA53;color:#fff;font-size:16px;margin-left:5px;cursor:pointer;}
+    #HomeJobPanel .job_search_form input.key{width:60%;height:30px;font-size:14px;padding:0px 10px;color:#666;border:1px solid #ccc;}
+
+    #HomeJobPanel h2 .lnks{margin-left:15px;color:#666;}
+    #HomeJobPanel h2 .lnks .title{color:#666;}
+    #HomeJobPanel h2 .lnks a{color:#3E62A6;}
+        #HomeJobPanel .body .list_job{display:block;overflow:hidden;margin-top:15px;}
+    #HomeJobPanel .body .list_job .list_new_position{float:left;width:68%;}
+    #HomeJobPanel .body .list_job .list_hot_company{float:right;width:32%;}
+    #HomeJobPanel .body .list_job .list_new_position strong{color:#000;}
+    #HomeJobPanel .body .list_job .list_hot_company strong{color:#000;}
+    #HomeJobPanel .body .list_job ul{margin:15px 0;display:block;}
+    #HomeJobPanel .body .list_job ul li{line-height:25px;height:25px;padding-left:20px;}
+    #HomeJobPanel .body .list_job ul li a{text-decoration:none;color:#3E62A6;}
+    #HomeJobPanel .body .list_job ul li a:hover{color:#ad401f;}
+
+    #HomeJobPanel .body .list_job ul li .num{margin-left:5px;font-size:8pt;}
+    #HomeJobPanel .body .list_job ul li .num,
+    #HomeJobPanel .body .list_job ul li .num a,
+    #HomeJobPanel .body .list_job ul li .num a:hover{color:#888;}
+    #HomeJobPanel .body .list_job ul li .num a:hover{text-decoration: underline;}
+
+    #HomeJobPanel .body .list_job .title{float: left;}
+    #HomeJobPanel .body .list_job .title span{ overflow: hidden; text-overflow: ellipsis; display: inline-block; float:left; }
+    #HomeJobPanel .body .list_job .title .company-name{max-width:90px;}
+    #HomeJobPanel .body .list_job .title .position-name{max-width:170px;}
+
+     #HomeJobPanel .body .list_job .title a{white-space: nowrap;}
+    
+
+
+    #HomeJobPanel .body .list_job .list_new_position ul li{background: url('../img/job_pos_ico.png') no-repeat left center;}
+    #HomeJobPanel .body .list_job .list_new_position .salary{margin-left:5px;margin-right:2px;color:#ad401f;}
+    #HomeJobPanel .body .list_job .list_new_position .city{margin-left:2px;}
+    #HomeJobPanel .body .list_job .list_new_position .company{margin-left:2px;color:#666;margin-left:5px;}
+    
+
+        #HomeJobPanel .body .list_job .list_hot_company ul li{background: url('../img/job_com_ico.png') no-repeat left center;}
+    #HomeJobPanel .body .list_job .list_hot_company .title{max-width:85%;}
+
+        #HomeJobPanel .body .list_job .list_new_position ul li.top a.title{color:#3E62A6;}
+    #HomeJobPanel .body .list_job .list_new_position ul li.top a.title:hover{color:#ad401f;}
+    #HomeJobPanel .body .list_job .list_hot_company ul li.top a.title{color:#3E62A6;}
+</style>
+<script>
+    function searchJob(actionName){
+        $("form[name='form_search_job']").attr("action", actionName);
+        $("form[name='form_search_job']").submit();
+    }
+</script>
+                        <div style="margin-top: 10px;">
+        <a name="index_banner_four">
+        </a><a href="http://php2016-tcoschina.eventdove.com/" target="_blank" title="">
+            <img src="./osc_files/index_banner_four_bbYNx.jpg" width="708" height="50">
+        </a>
+         </div>
+    
+    <div id="HomeJobTopicPanel" class="mod TopicList">
+        <h2>
+            <span class="right">
+                <a href="http://www.oschina.net/question/ask?catalog=100">发布求职信息»</a>
+            </span>
+            <a href="http://www.oschina.net/question?catalog=100" class="title">职业生涯</a>
+        </h2>
+
+        <div class="body">
+                        <table width="100%" cellspacing="0" cellpadding="0" id="job_list_$ipage">
+                                                                                    <tbody><tr>
+                            <td class="thread"><a href="http://www.oschina.net/question/2293919_2177889" target="_blank" title="闲来无聊，做了一个公众号，用来发布一些不错的文章" class="thread_type_1">闲来无聊，做了一个公众号，用来发布一些不错的文章</a><span class="stat">3分钟前
+                                By 吹牛大王</span></td>
+                            <td class="last_post">0评/0阅</td>
+                        </tr>
+                                                                                                        <tr>
+                            <td class="thread"><a href="http://www.oschina.net/question/2524434_2177845" target="_blank" title="VR时代已经来到，如何看待VR？" class="thread_type_1">VR时代已经来到，如何看待VR？</a><span class="stat">52分钟前
+                                By dm___</span></td>
+                            <td class="last_post">2评/192阅</td>
+                        </tr>
+                                                                                                        <tr>
+                            <td class="thread"><a href="http://www.oschina.net/question/123890_2177804" target="_blank" title="码农写的代码其实很值钱,但就是工资太低" class="thread_type_1">码农写的代码其实很值钱,但就是工资太低</a><span class="stat">1分钟前
+                                By 天下无易处之境遇</span></td>
+                            <td class="last_post">12评/894阅</td>
+                        </tr>
+                                                                                                        <tr>
+                            <td class="thread"><a href="http://www.oschina.net/question/2004005_2177515" target="_blank" title="大家好我来淫一手湿" class="thread_type_1">大家好我来淫一手湿</a><span class="stat">21分钟前
+                                By 天下无易处之境遇</span></td>
+                            <td class="last_post">15评/1268阅</td>
+                        </tr>
+                                                                                                        <tr>
+                            <td class="thread"><a href="http://www.oschina.net/question/2412010_2177828" target="_blank" title="应届毕业生的薪资一般是多少" class="thread_type_1">应届毕业生的薪资一般是多少</a><span class="stat">51分钟前
+                                By dm___</span></td>
+                            <td class="last_post">7评/487阅</td>
+                        </tr>
+                                                                                                        <tr>
+                            <td class="thread"><a href="http://www.oschina.net/question/1171790_2177517" target="_blank" title="小公司真的很坑！" class="thread_type_1">小公司真的很坑！</a><span class="stat">2小时前
+                                By 般专丶年</span></td>
+                            <td class="last_post">41评/6163阅</td>
+                        </tr>
+                                                                                                        <tr>
+                            <td class="thread"><a href="http://www.oschina.net/question/1994892_2176995" target="_blank" title="昨天的面试" class="thread_type_1">昨天的面试</a><span class="stat">5小时前
+                                By lanmingle</span></td>
+                            <td class="last_post">37评/4244阅</td>
+                        </tr>
+                                                                                                        <tr>
+                            <td class="thread"><a href="http://www.oschina.net/question/2617444_2177404" target="_blank" title="过几天就要面试了，是企业到学校招聘的，校招。有个问题，我该怎么称呼面试官呢？求前辈指导下" class="thread_type_1">过几天就要面试了，是企业到学校招聘的，校招。有个...</a><span class="stat">18小时前
+                                By 南湖船老大</span></td>
+                            <td class="last_post">21评/1140阅</td>
+                        </tr>
+                                                                                                        <tr>
+                            <td class="thread"><a href="http://www.oschina.net/question/2524434_2177416" target="_blank" title="是否应该继续学Android" class="thread_type_1">是否应该继续学Android</a><span class="stat">21小时前
+                                By byronhs</span></td>
+                            <td class="last_post">21评/1911阅</td>
+                        </tr>
+                                                                                                        <tr>
+                            <td class="thread"><a href="http://www.oschina.net/question/2493938_2177457" target="_blank" title="关于换工作?(目前工作跟技术无关)A、先离职再找工作。B、先离职再学习再找工。C、先离职再玩再找工。D、找到再离职。" class="thread_type_1">关于换工作?(目前工作跟技术无关)A、先离职再找工作...</a><span class="stat">1天前
+                                By 水门-kay</span></td>
+                            <td class="last_post">22评/1924阅</td>
+                        </tr>
+                                                </tbody></table>
+            <div class="area_more" id="jobs_area">
+                <a href="http://www.oschina.net/question?catalog=100" class="more">进入职业生涯版块&nbsp;»</a>
+
+                <div class="clear"></div>
+            </div>
+        </div>
+    </div>
+</td>
+    <td width="280" valign="top">
+        <style>
+            #Expert {
+                margin: 0 0 20px 0;
+            }
+
+            #Expert .user img {
+                width: 50px;
+                height: 50px;
+                border: 1px solid #ccc;
+                background: #fff;
+                padding: 2px;
+            }
+
+            #Expert .detail {
+                line-height: 16px;
+            }
+
+            #Expert .detail h2 {
+                font-size: 10.5pt;
+                margin: 5px 0 0 0;
+            }
+
+            .ad_r01 {
+                height: 64px;
+                margin-bottom: 10px;
+            }
+
+            .ad_r01 img {
+                float: left;
+                margin-right: 5px;
+            }
+
+            .ad_r01 ul {
+                float: left;
+                list-style-type: decimal;
+                list-style-position: inside;
+                color: #666;
+            }
+
+            .ad_r01 li {
+                line-height: 18px;
+                margin-bottom: 3px;
+            }
+        </style>
+                            <div style="margin:0 0 10px 0;">
+        <a name="index_banner_five">
+        </a><a href="http://netease.im/?&amp;hmsr=os5&amp;hmpl=1&amp;from=os5" target="_blank" title="网易云信">
+            <img src="./osc_files/index_banner_five_Cwluy.jpg" width="280" height="75">
+        </a>
+         </div>
+    
+        <div class="clear"></div>
+        <div id="DynaInfo">
+        <h3><a href="http://www.fast-sky.com:8080/bdunion/skipOschina.html" target="_blank">6亿专项圆梦基金助力开发者掘金</a>
+<!--<a href="http://city.oschina.net/shenzhen/event/2174064" target="_blank">名企求贤：月薪 30K＋，周日面试</a>--></h3>
+                    <div id="tweet_error_msg" style="display:none;margin:0 0 10px 0;color:#A00;"></div>
+            <form id="TForm" action="http://www.oschina.net/action/tweet/pub" onkeydown="if((event.metaKey || event.ctrlKey)&amp;&amp;event.keyCode==13){submitMe();}" method="POST">
+                <input type="hidden" name="user_code" value="923Ac5PeclGF2rtyaGddGyNfiNBb5pcEf68aCvUu">
+                <input type="hidden" name="user" value="660460">
+
+                <div id="DivPubStatus">已发布:)</div>
+                <textarea name="msg" placeholder="今天你动弹了吗？"></textarea>
+                <button type="submit">动弹</button>
+                <div class="clear"></div>
+            </form>
+                                                    <script type="text/javascript">
+                <!--
+                $('#TForm').ajaxForm({
+                    dataType: 'json',
+                    success: function (json) {
+                        handleLogRes(json);
+                    }
+                });
+                
+                function submitMe() {
+                    var queryString = $('#TForm').formSerialize();
+                    ajax_post("/action/tweet/pub", queryString, function (res) {
+                        var json = eval('(' + res + ')');
+                        handleLogRes(json);
+                    });
+                }
+                function handleLogRes(json) {
+                    if (json.msg) {
+                        $('#tweet_error_msg').html(json.msg);
+                        $('#tweet_error_msg').show();
+                    } else if (json.log) {
+                        $('#tweet_error_msg').html('');
+                        $('#tweet_error_msg').hide();
+                        $('#TForm textarea').val(' ');
+                        $('#DivPubStatus').show();
+                        t = setTimeout(function () {
+                            $('#DivPubStatus').hide();
+                            clearTimeout(t);
+                            $('#TForm textarea').val('');
+                            $('#TForm textarea').focus();
+                            check_new_log();
+                        }, 1000);
+                    }
+                }
+                //-->
+            </script>
+            <script type="text/javascript">
+                $(".TweetsSwitcher").ready(function () {
+                    //预加载切换后的两张图片
+                    var img4 = new Image();
+                    img4.src = '/img/tweetsSwitcher4.gif?t=1451961935000';
+                    var img3 = new Image();
+                    img3.src = '/img/tweetsSwitcher3.gif?t=1451961935000';
+                    $(".TweetsSwitcher .sw").click(function () {
+                        if ($(this).attr("id") == "newSwitcher") {
+                            $(".HotTweets").hide();
+                            $(".TopTweets").show();
+                        } else {
+                            $(".HotTweets").show();
+                            $(".TopTweets").hide();
+                        }
+                        $(".TweetsSwitcher .sw[selected='selected']").removeAttr("selected");
+                        $(this).attr("selected", "selected");
+                        switchTweets($(this));
+                    });
+                });
+                function switchTweets(t, type) {
+                    $(".TweetsSwitcher li").removeClass("on");
+                    t.addClass("on");
+                    if (t.attr("id") == "newSwitcher") {
+                        $("#imgNew").removeClass("img_new_off");
+                        $("#imgNew").addClass("img_new_on");
+                        $("#imgTop").removeClass("img_top_on");
+                        $("#imgTop").addClass("img_top_off");
+                    } else {
+                        $("#imgNew").removeClass("img_new_on");
+                        $("#imgNew").addClass("img_new_off");
+                        $("#imgTop").removeClass("img_top_off");
+                        $("#imgTop").addClass("img_top_on");
+                    }
+                }
+
+            </script>
+                        <ul class="TopTweets" style="display: block;">                    <li log="8914545">
+            <span class="portrait"><a href="http://my.oschina.net/iris22" target="_blank"><img src="./osc_files/2686220_50.jpg" align="absmiddle" alt="Alaise" title="Alaise" class="SmallPortrait" user="2686220"></a></span>
+    <span class="body">
+        <span class="user"><a href="http://my.oschina.net/iris22">Alaise</a>：</span><span class="log"><a href="http://www.oschina.net/tweet-topic/%E4%B8%8A%E6%B5%B7%E6%BA%90%E5%88%9B%E4%BC%9A%E5%A4%A7%E7%88%86%E6%96%99" target="_blank">#上海源创会大爆料#</a> 听说现场超火爆，不能围观心好痛 </span>
+        <span class="time">1分钟前(<a href="http://my.oschina.net/iris22/tweet/8914545">0评</a>)
+                                    Android                                        <!--添加点赞功能 Start-->
+                <span class="love">
+                    <span style="color:red" id="TopTweets_info_8914545"></span>
+                                            <a href="javascript:;" class="fa fa-thumbs-o-up" id="TopTweets_8914545_2686220_makeAsLove" onclick="makeAsLove(this);">
+                                        <span id="TopTweets_love_8914545" class="loveOfCount">0</span></a>
+                    <input type="hidden" id="TopTweets_love_8914545_clickCount" value="0" autocomplete="off">
+                    <input type="hidden" id="TopTweets_love_8914545_hidden" value="0">
+                    <input type="hidden" id="TopTweets_love_8914545_user_code" value="923Ac5PeclGF2rtyaGddGyNfiNBb5pcEf68aCvUu" autocomplete="off">
+                </span>
+            <!--添加点赞功能 END-->
+                            </span>
+    </span>
+            <div class="clear"></div>
+        </li>
+                                <li log="8914540">
+            <span class="portrait"><a href="http://my.oschina.net/u/2741475" target="_blank"><img src="./osc_files/2741475_50.jpg" align="absmiddle" alt="戏孒ギ唱離傷" title="戏孒ギ唱離傷" class="SmallPortrait" user="2741475"></a></span>
+    <span class="body">
+        <span class="user"><a href="http://my.oschina.net/u/2741475">戏孒ギ唱離傷</a>：</span><span class="log">服务器在哪里？？ </span>
+        <span class="time">1分钟前(<a href="http://my.oschina.net/u/2741475/tweet/8914540">0评</a>)
+                            <a href="http://my.oschina.net/u/2741475/tweet/8914540"><img src="./osc_files/img.gif" align="absmiddle"></a>                                                    Android                                        <!--添加点赞功能 Start-->
+                <span class="love">
+                    <span style="color:red" id="TopTweets_info_8914540"></span>
+                                            <a href="javascript:;" class="fa fa-thumbs-o-up" id="TopTweets_8914540_2741475_makeAsLove" onclick="makeAsLove(this);">
+                                        <span id="TopTweets_love_8914540" class="loveOfCount">0</span></a>
+                    <input type="hidden" id="TopTweets_love_8914540_clickCount" value="0" autocomplete="off">
+                    <input type="hidden" id="TopTweets_love_8914540_hidden" value="0">
+                    <input type="hidden" id="TopTweets_love_8914540_user_code" value="923Ac5PeclGF2rtyaGddGyNfiNBb5pcEf68aCvUu" autocomplete="off">
+                </span>
+            <!--添加点赞功能 END-->
+                            </span>
+    </span>
+            <div class="clear"></div>
+        </li>
+                                <li log="8914537">
+            <span class="portrait"><a href="http://my.oschina.net/linqing" target="_blank"><img src="./osc_files/2491310_50.jpg" align="absmiddle" alt="LQ_oschina" title="LQ_oschina" class="SmallPortrait" user="2491310"></a></span>
+    <span class="body">
+        <span class="user"><a href="http://my.oschina.net/linqing">LQ_oschina</a>：</span><span class="log"><a href="http://www.oschina.net/tweet-topic/%E4%B8%8A%E6%B5%B7%E6%BA%90%E5%88%9B%E4%BC%9A%E5%A4%A7%E7%88%86%E6%96%99" target="_blank">#上海源创会大爆料#</a><img src="./osc_files/9.gif" alt="9"><img src="./osc_files/9.gif" alt="9"><img src="./osc_files/9.gif" alt="9"> </span>
+        <span class="time">1分钟前(<a href="http://my.oschina.net/linqing/tweet/8914537">0评</a>)
+                            <a href="http://my.oschina.net/linqing/tweet/8914537"><img src="./osc_files/img.gif" align="absmiddle"></a>                                                    Android                                        <!--添加点赞功能 Start-->
+                <span class="love">
+                    <span style="color:red" id="TopTweets_info_8914537"></span>
+                                            <a href="javascript:;" class="fa fa-thumbs-o-up" id="TopTweets_8914537_2491310_makeAsLove" onclick="makeAsLove(this);">
+                                        <span id="TopTweets_love_8914537" class="loveOfCount">0</span></a>
+                    <input type="hidden" id="TopTweets_love_8914537_clickCount" value="0" autocomplete="off">
+                    <input type="hidden" id="TopTweets_love_8914537_hidden" value="0">
+                    <input type="hidden" id="TopTweets_love_8914537_user_code" value="923Ac5PeclGF2rtyaGddGyNfiNBb5pcEf68aCvUu" autocomplete="off">
+                </span>
+            <!--添加点赞功能 END-->
+                            </span>
+    </span>
+            <div class="clear"></div>
+        </li>
+                                <li log="8914533">
+            <span class="portrait"><a href="http://my.oschina.net/u/1155446" target="_blank"><img src="./osc_files/portrait.gif" align="absmiddle" alt="董姐夫" title="董姐夫" class="SmallPortrait" user="1155446"></a></span>
+    <span class="body">
+        <span class="user"><a href="http://my.oschina.net/u/1155446">董姐夫</a>：</span><span class="log">没有一点兴趣<img src="./osc_files/0.gif" alt="0"></span>
+        <span class="time">1分钟前(<a href="http://my.oschina.net/u/1155446/tweet/8914533">0评</a>)
+                                                                            <!--添加点赞功能 Start-->
+                <span class="love">
+                    <span style="color:red" id="TopTweets_info_8914533"></span>
+                                            <a href="javascript:;" class="fa fa-thumbs-o-up" id="TopTweets_8914533_1155446_makeAsLove" onclick="makeAsLove(this);">
+                                        <span id="TopTweets_love_8914533" class="loveOfCount">0</span></a>
+                    <input type="hidden" id="TopTweets_love_8914533_clickCount" value="0" autocomplete="off">
+                    <input type="hidden" id="TopTweets_love_8914533_hidden" value="0">
+                    <input type="hidden" id="TopTweets_love_8914533_user_code" value="923Ac5PeclGF2rtyaGddGyNfiNBb5pcEf68aCvUu" autocomplete="off">
+                </span>
+            <!--添加点赞功能 END-->
+                            </span>
+    </span>
+            <div class="clear"></div>
+        </li>
+                                <li log="8914518">
+            <span class="portrait"><a href="http://my.oschina.net/HuiMinGirl" target="_blank"><img src="./osc_files/2760732_50.jpg" align="absmiddle" alt="暮光戴晨曦" title="暮光戴晨曦" class="SmallPortrait" user="2760732"></a></span>
+    <span class="body">
+        <span class="user"><a href="http://my.oschina.net/HuiMinGirl">暮光戴晨曦</a>：</span><span class="log">红薯本人是帅的啊，这个头像，，，<a href="http://my.oschina.net/javayou" class="referer" target="_blank">@红薯</a>   </span>
+        <span class="time">1分钟前(<a href="http://my.oschina.net/HuiMinGirl/tweet/8914518">0评</a>)
+                                    iPhone                                        <!--添加点赞功能 Start-->
+                <span class="love">
+                    <span style="color:red" id="TopTweets_info_8914518"></span>
+                                            <a href="javascript:;" class="fa fa-thumbs-o-up" id="TopTweets_8914518_2760732_makeAsLove" onclick="makeAsLove(this);">
+                                        <span id="TopTweets_love_8914518" class="loveOfCount">0</span></a>
+                    <input type="hidden" id="TopTweets_love_8914518_clickCount" value="0" autocomplete="off">
+                    <input type="hidden" id="TopTweets_love_8914518_hidden" value="0">
+                    <input type="hidden" id="TopTweets_love_8914518_user_code" value="923Ac5PeclGF2rtyaGddGyNfiNBb5pcEf68aCvUu" autocomplete="off">
+                </span>
+            <!--添加点赞功能 END-->
+                            </span>
+    </span>
+            <div class="clear"></div>
+        </li>
+                                
+                                
+                                
+                                
+            
+                
+                                            
+                                    
+                                            
+                                    
+                                            
+                                    
+                                            
+                                    
+                                            
+                                                </ul>
+                        <ul class="HotTweets" style="display: none;">
+                                                            <li>
+                            <span class="portrait"><a href="http://my.oschina.net/u/2760689" target="_blank"><img src="./osc_files/2760689_50.jpg" align="absmiddle" alt="594Sandy" title="594Sandy" class="SmallPortrait" user="2760689"></a></span>
+                    <span class="body">
+                        <span class="user"><a href="http://my.oschina.net/u/2760689">594Sandy</a>：</span><span class="log">周末你好 </span>
+                        <span class="time">24小时前 (<a href="http://my.oschina.net/u/2760689/tweet/8909113">51评</a>)
+
+                                                            <a href="http://my.oschina.net/u/2760689/tweet/8909113"><img src="./osc_files/img.gif" align="absmiddle"></a>                                                                    Android    
+                                                                                    <!--添加点赞功能 Start-->
+                                    <span class="love">
+                                        <span style="color:red" id="Top10_info_8909113"></span>
+                                                                                <a href="javascript:;" class="fa fa-thumbs-o-up" id="Top10_8909113_2760689_makeAsLove" onclick="makeAsLove(this);">
+                                                                                <span id="Top10_love_8909113" class="loveOfCount">
+                                            3
+                                        </span>
+                                    </a>
+                                        <input type="hidden" id="Top10_love_8909113_hidden" value="3">
+                                        <input type="hidden" id="Top10_love_8909113_clickCount" value="0" autocomplete="off">
+                                        <input type="hidden" id="Top10_love_8909113_user_code" value="923Ac5PeclGF2rtyaGddGyNfiNBb5pcEf68aCvUu" autocomplete="off">
+                                            
+                                    </span>
+                                <!--添加点赞功能 END-->
+                                                                            </span>
+                    </span>
+
+                            <div class="clear"></div>
+                        </li>
+                                                                                <li>
+                            <span class="portrait"><a href="http://my.oschina.net/iris22" target="_blank"><img src="./osc_files/2686220_50.jpg" align="absmiddle" alt="Alaise" title="Alaise" class="SmallPortrait" user="2686220"></a></span>
+                    <span class="body">
+                        <span class="user"><a href="http://my.oschina.net/iris22">Alaise</a>：</span><span class="log">跟室友去退房子，两个人跟管理员大吵了一架，尼玛室友都气哭了，真是气的胃疼，深圳租房子太坑了 </span>
+                        <span class="time">2天前 (<a href="http://my.oschina.net/iris22/tweet/8904220">58评</a>)
+
+                                                                    Android    
+                                                                                    <!--添加点赞功能 Start-->
+                                    <span class="love">
+                                        <span style="color:red" id="Top10_info_8904220"></span>
+                                                                                <a href="javascript:;" class="fa fa-thumbs-o-up" id="Top10_8904220_2686220_makeAsLove" onclick="makeAsLove(this);">
+                                                                                <span id="Top10_love_8904220" class="loveOfCount">
+                                            5
+                                        </span>
+                                    </a>
+                                        <input type="hidden" id="Top10_love_8904220_hidden" value="5">
+                                        <input type="hidden" id="Top10_love_8904220_clickCount" value="0" autocomplete="off">
+                                        <input type="hidden" id="Top10_love_8904220_user_code" value="923Ac5PeclGF2rtyaGddGyNfiNBb5pcEf68aCvUu" autocomplete="off">
+                                            
+                                    </span>
+                                <!--添加点赞功能 END-->
+                                                                            </span>
+                    </span>
+
+                            <div class="clear"></div>
+                        </li>
+                                                                                <li>
+                            <span class="portrait"><a href="http://my.oschina.net/MingjunYang" target="_blank"><img src="./osc_files/736179_50.jpg" align="absmiddle" alt="MingjunYang" title="MingjunYang" class="SmallPortrait" user="736179"></a></span>
+                    <span class="body">
+                        <span class="user"><a href="http://my.oschina.net/MingjunYang">MingjunYang</a>：</span><span class="log">祼辞了。现在没工作没收入没存款有债务。只能喝粥捱一天算一天了。 </span>
+                        <span class="time">1天前 (<a href="http://my.oschina.net/MingjunYang/tweet/8907055">45评</a>)
+
+                                                            <a href="http://my.oschina.net/MingjunYang/tweet/8907055"><img src="./osc_files/img.gif" align="absmiddle"></a>                                                                    Android    
+                                                                                    <!--添加点赞功能 Start-->
+                                    <span class="love">
+                                        <span style="color:red" id="Top10_info_8907055"></span>
+                                                                                <a href="javascript:;" class="fa fa-thumbs-o-up" id="Top10_8907055_736179_makeAsLove" onclick="makeAsLove(this);">
+                                                                                <span id="Top10_love_8907055" class="loveOfCount">
+                                            3
+                                        </span>
+                                    </a>
+                                        <input type="hidden" id="Top10_love_8907055_hidden" value="3">
+                                        <input type="hidden" id="Top10_love_8907055_clickCount" value="0" autocomplete="off">
+                                        <input type="hidden" id="Top10_love_8907055_user_code" value="923Ac5PeclGF2rtyaGddGyNfiNBb5pcEf68aCvUu" autocomplete="off">
+                                            
+                                    </span>
+                                <!--添加点赞功能 END-->
+                                                                            </span>
+                    </span>
+
+                            <div class="clear"></div>
+                        </li>
+                                                                                <li>
+                            <span class="portrait"><a href="http://my.oschina.net/1183862791" target="_blank"><img src="./osc_files/2671292_50.jpg" align="absmiddle" alt="小骆骆" title="小骆骆" class="SmallPortrait" user="2671292"></a></span>
+                    <span class="body">
+                        <span class="user"><a href="http://my.oschina.net/1183862791">小骆骆</a>：</span><span class="log">介个妹子招聘男友:
+1，身高: 1.75cm左右，健身达人
+2，长相: 带的出去，带的回来
+3，特长: 会做人，会做菜
+4，能力: 受得了气，挨得了打
+最重要的是要湖南宁远人哦
+总结：看着顺眼就好
+符合要求请留言，本人自动上门还包邮～ </span>
+                        <span class="time">1天前 (<a href="http://my.oschina.net/1183862791/tweet/8907573">25评</a>)
+
+                                                            <a href="http://my.oschina.net/1183862791/tweet/8907573"><img src="./osc_files/img.gif" align="absmiddle"></a>                                                                    Android    
+                                                                                    <!--添加点赞功能 Start-->
+                                    <span class="love">
+                                        <span style="color:red" id="Top10_info_8907573"></span>
+                                                                                <a href="javascript:;" class="fa fa-thumbs-o-up" id="Top10_8907573_2671292_makeAsLove" onclick="makeAsLove(this);">
+                                                                                <span id="Top10_love_8907573" class="loveOfCount">
+                                            0
+                                        </span>
+                                    </a>
+                                        <input type="hidden" id="Top10_love_8907573_hidden" value="0">
+                                        <input type="hidden" id="Top10_love_8907573_clickCount" value="0" autocomplete="off">
+                                        <input type="hidden" id="Top10_love_8907573_user_code" value="923Ac5PeclGF2rtyaGddGyNfiNBb5pcEf68aCvUu" autocomplete="off">
+                                            
+                                    </span>
+                                <!--添加点赞功能 END-->
+                                                                            </span>
+                    </span>
+
+                            <div class="clear"></div>
+                        </li>
+                                                                                <li>
+                            <span class="portrait"><a href="http://my.oschina.net/javayou" target="_blank"><img src="./osc_files/12_50.jpg" align="absmiddle" alt="红薯" title="红薯" class="SmallPortrait" user="12"></a></span>
+                    <span class="body">
+                        <span class="user"><a href="http://my.oschina.net/javayou">红薯</a>：</span><span class="log">人和人之间真的一点信任都没有！我一朋友最近在朋友圈发牢骚，说洗发水总是被偷，于是悄悄换上脱发水，然后......  可他娘的，真不是我干的！ </span>
+                        <span class="time">10小时前 (<a href="http://my.oschina.net/javayou/tweet/8911709">13评</a>)
+
+                                                            <a href="http://my.oschina.net/javayou/tweet/8911709"><img src="./osc_files/img.gif" align="absmiddle"></a>                                                                    iPhone    
+                                                                                    <!--添加点赞功能 Start-->
+                                    <span class="love">
+                                        <span style="color:red" id="Top10_info_8911709"></span>
+                                                                                <a href="javascript:;" class="fa fa-thumbs-o-up" id="Top10_8911709_12_makeAsLove" onclick="makeAsLove(this);">
+                                                                                <span id="Top10_love_8911709" class="loveOfCount">
+                                            10
+                                        </span>
+                                    </a>
+                                        <input type="hidden" id="Top10_love_8911709_hidden" value="10">
+                                        <input type="hidden" id="Top10_love_8911709_clickCount" value="0" autocomplete="off">
+                                        <input type="hidden" id="Top10_love_8911709_user_code" value="923Ac5PeclGF2rtyaGddGyNfiNBb5pcEf68aCvUu" autocomplete="off">
+                                            
+                                    </span>
+                                <!--添加点赞功能 END-->
+                                                                            </span>
+                    </span>
+
+                            <div class="clear"></div>
+                        </li>
+                                                </ul>
+            <ol class="TweetsSwitcher">
+                <li class="sw on" id="newSwitcher" selected="selected"><a href="javascript:;">最新动弹</a></li>
+                <li class="img img_new_on" id="imgNew"></li>
+                <li class="sw" id="hotSwitcher"><a href="javascript:;">热门动弹</a></li>
+                <li class="img img_top_off" id="imgTop"></li>
+                <li class="more"><a href="http://www.oschina.net/tweets">更多动弹 »</a></li>
+            </ol>
+            <div class="clear"></div>
+        </div>
+        <div id="WeeklyProject" class="lbox">
+            
+<strong class="RightTitle">
+    本周推荐 Eruda
+</strong>
+<div id="ProjectText"><p><a target="_blank" href="http://www.oschina.net/p/eruda">Eruda</a> 是国内团队开发一个手机网页前端调试面板。主要功能包括：显示 JavaScript 日志、检查 Dom 状态、显示性能指标、显示本地存储和 Cookie 信息、显示网址以及用户浏览器信息、代码片段等等。</p><p style="margin:10px 0;"><a target="_blank" href="http://www.oschina.net/p/eruda"><img data-bd-imgshare-binded="1" src="./osc_files/183953_Tcua_2754366.jpg" alt="" width="265"></a></p></div>
+<div id="HistoryRecommend">
+<ul>
+<li><a style=" text-decoration: none;" href="http://www.oschina.net/p/huststore">2. 360高性能分布式存储服务 HustStore</a> »</li>
+<li><a style=" text-decoration: none;" href="http://www.oschina.net/p/deeplearning4j">3. 分布式深度学习库 Deeplearning4j</a> »</li>
+<li><a style=" text-decoration: none;" href="http://www.oschina.net/p/openvbx">4. 基于 Web 的电话系统 OpenVBX</a> »</li>
+<li><a style=" text-decoration: none;" href="http://www.oschina.net/p/caravel">5. 数据探查与可视化平台 Caravel</a> »</li>
+</ul>
+<p style="margin:0 10px 5px 0;font-size:9pt;">
+<a href="http://www.oschina.net/project/weekly_projects" style="color:#A00;">更多以往推荐&nbsp;»</a>
+</p>
+</div>        </div>
+        <style>
+            .RecommBlogs li a {
+                background: url('/img/a3.gif') no-repeat left center;
+                padding-left: 13px;
+            }
+        </style>
+                <div class="RecommBlogs lbox">
+            <strong class="RightTitle"><a href="http://www.oschina.net/blog">更多»</a>最新推荐博客文章</strong>
+            <ul>
+                                    <li><a style="text-decoration:none;" href="http://my.oschina.net/nodeonly/blog/675246" title="为何受伤的总是技术人：《大牛被公司诬蔑，还要进派出所？》前传">为何受伤的总是技术人：《大牛被公司...</a>
+                    </li>
+                                    <li><a style="text-decoration:none;" href="http://my.oschina.net/u/2340880/blog/675233" title="Swift讲解专题八——闭包">Swift讲解专题八——闭包</a>
+                    </li>
+                                    <li><a style="text-decoration:none;" href="http://my.oschina.net/yate1996/blog/675230" title="【开源】专业K线绘制[K线主副图、趋势图、成交量、滚动、放大缩小、MACD、KDJ等]">【开源】专业K线绘制[K线主副图、趋...</a>
+                    </li>
+                                    <li><a style="text-decoration:none;" href="http://my.oschina.net/SpringZhang/blog/675217" title="图表 Echarts 3.0 简单使用 ">图表 Echarts 3.0 简单使用 ...</a>
+                    </li>
+                                    <li><a style="text-decoration:none;" href="http://my.oschina.net/zudajun/blog/674946" title="Mybatis3.3.x技术内幕（十五）：Mybatis之foreach批量insert，返回主键id列表（修复Mybatis返回null的bug）">Mybatis3.3.x技术内幕（十五）：Myb...</a>
+                    </li>
+                                    <li><a style="text-decoration:none;" href="http://my.oschina.net/u/935814/blog/674777" title="JOOQ简单使用">JOOQ简单使用</a>
+                    </li>
+                                    <li><a style="text-decoration:none;" href="http://my.oschina.net/luckid/blog/674764" title="GIT在使用中如何处理冲突问题">GIT在使用中如何处理冲突问题</a>
+                    </li>
+                                    <li><a style="text-decoration:none;" href="http://my.oschina.net/u/2358046/blog/674719" title="TDEngine游戏平台框架逻辑">TDEngine游戏平台框架逻辑</a>
+                    </li>
+                                    <li><a style="text-decoration:none;" href="http://my.oschina.net/u/1464083/blog/674634" title="SaaS市场中最重要的一支，移动办公迎来新的重量玩家——阿里云办公">SaaS市场中最重要的一支，移动办公迎...</a>
+                    </li>
+                                    <li><a style="text-decoration:none;" href="http://my.oschina.net/u/2340880/blog/674616" title="Swift讲解专题七——函数">Swift讲解专题七——函数</a>
+                    </li>
+                                    <li><a style="text-decoration:none;" href="http://my.oschina.net/kaixuan1995/blog/674466" title="JS中的编码问题">JS中的编码问题</a>
+                    </li>
+                                    <li><a style="text-decoration:none;" href="http://my.oschina.net/u/2250599/blog/674249" title="Maven依赖进阶">Maven依赖进阶</a>
+                    </li>
+                                    <li><a style="text-decoration:none;" href="http://my.oschina.net/u/2340880/blog/674248" title="Swift讲解专题六——流程控制">Swift讲解专题六——流程控制</a>
+                    </li>
+                                    <li><a style="text-decoration:none;" href="http://my.oschina.net/openforce/blog/674243" title="FaceBook Prestodb 配置文档">FaceBook Prestodb 配置文档...</a>
+                    </li>
+                                    <li><a style="text-decoration:none;" href="http://my.oschina.net/zhangstephen/blog/673838" title="【原译】javascript中的正确错误处理">【原译】javascript中的正确错误处理...</a>
+                    </li>
+                            </ul>
+        </div>
+        
+        <style>
+            #toolbox ul li {
+                height: 60px;
+                margin: 0 0 5px 0;
+                padding: 0 0 8px 0;
+                border-bottom: 1px dashed #ddd;
+            }
+
+            #toolbox ul li .img {
+                float: left;
+                width: 50px;
+                padding-top: 3px;
+            }
+
+            #toolbox ul li .img img {
+                width: 48px;
+                height: 48px;
+            }
+
+            #toolbox ul li .detail {
+                width: 230px;
+                overflow: hidden;
+                font-size: 9pt;
+            }
+
+            #toolbox ul li .name a {
+                text-decoration: none;
+                font-weight: bold;
+            }
+
+            #toolbox ul li .intro {
+                display: block;
+                color: #9A9A9A;
+                margin: 5px 0 0 0;
+            }
+
+            #toolbox a.hover {
+                color: #AAA;
+            }
+        </style>
+        <div id="toolbox" class="lbox">
+
+            <strong class="RightTitle">在线工具</strong>
+            <ul>
+                <li>
+                    <span class="img">
+                        <a href="http://team.oschina.net/" target="_blank"><img src="./osc_files/team.png" alt="APIDOCS"></a>
+                    </span>
+                    <span class="detail">
+                        <span class="name"><a href="http://team.oschina.net/" target="_blank">Team@OSC 团队协作</a></span>
+                        <span class="intro">团队协作开发平台，周报，便签，任务管理，应有尽有，轻松管理轻量级团队。</span>
+                    </span>
+
+                    <div class="clear"></div>
+                </li>
+                <li>
+                    <span class="img">
+                        <a href="http://git.oschina.net/" target="_blank"><img src="./osc_files/git.png" alt="APIDOCS"></a>
+                    </span>
+                    <span class="detail">
+                        <span class="name"><a href="http://git.oschina.net/" target="_blank">Git@OSC 代码托管</a></span>
+                        <span class="intro">开源中国社区团队基于开源项目 GitLab 开发的在线代码托管平台。</span>
+                    </span>
+
+                    <div class="clear"></div>
+                </li>
+                <li>
+                    <span class="img">
+                        <a href="http://sonar.oschina.net/" target="_blank"><img src="./osc_files/sonar.png" alt="APIDOCS"></a>
+                    </span>
+                    <span class="detail">
+                        <span class="name"><a href="http://sonar.oschina.net/" target="_blank">Sonar@OSC
+                            代码质量检查</a></span>
+                        <span class="intro">开源中国基于Sonar打造的代码质量管理系统，与 Git@OSC 紧密结合。</span>
+                    </span>
+
+                    <div class="clear"></div>
+                </li>
+                <li>
+                    <span class="img">
+                        <a href="http://www.oschina.net/news/55994/oschina-paas-platform-with-mopaas" target="_blank"><img src="./osc_files/paas.png" alt="APIDOCS"></a>
+                    </span>
+                    <span class="detail">
+                        <span class="name"><a href="https://git.oschina.net/paas_osc" target="_blank">PaaS@OSC 项目演示</a></span>
+                        <span class="intro">开源中国社区团队跟 MoPaaS 合作，为开发者提供更可靠的代码托管和演示服务。</span>
+                    </span>
+
+                    <div class="clear"></div>
+                </li>
+                <li>
+                    <span class="img">
+                        <a href="http://tool.oschina.net/" target="_blank"><img src="./osc_files/ostools.gif" alt="APIDOCS"></a>
+                    </span>
+                    <span class="detail">
+                        <span class="name"><a href="http://tool.oschina.net/" target="_blank">OSTools 在线工具</a></span>
+                        <span class="intro">提供在线CSS/JS 调试，在线API文档,Less CSS编译器等在线工具。</span>
+                    </span>
+
+                    <div class="clear"></div>
+                </li>
+                <li>
+                    <span class="img">
+                        <a href="http://runjs.cn/" target="_blank"><img src="./osc_files/runjs_logo.gif" alt="RunJS"></a>
+                    </span>
+                    <span class="detail">
+                        <span class="name"><a href="http://runjs.cn/" target="_blank">RunJS 在线编辑</a></span>
+                        <span class="intro">在线编辑测试JS/HTML/CSS的工具,实时预览、保存、分享、Fork。</span>
+                    </span>
+
+                    <div class="clear"></div>
+                </li>
+
+                <li>
+                    <span class="img">
+                        <a href="http://maven.oschina.net/" target="_blank"><img src="./osc_files/maven.gif" alt="maven"></a>
+                    </span>
+                    <span class="detail">
+                        <span class="name"><a href="http://maven.oschina.net/" target="_blank">Maven 镜像站</a></span>
+                        <span class="intro">开源中国社区团队基于 Sonatype Nexus OSS 开发的 Maven 镜像管理库。</span>
+                    </span>
+
+                    <div class="clear"></div>
+                </li>
+                                                <li>
+<span class="img">
+    <a href="http://click.aliyun.com/m/4604/" target="_blank"><img src="./osc_files/aliyun.png" alt="aliyun"></a>
+</span>
+<span class="detail">
+    <span class="name"><a href="http://click.aliyun.com/m/4604/" target="_blank">PHP、java环境一键部署</a></span>
+    <span class="intro">系统千差万别，开源软件来源不明？一键部署，上云从未如此简单。</span>
+</span>
+<div class="clear"></div>
+</li>
+                            </ul>
+        </div>
+        <div id="upyun">
+            <a href="http://www.oschina.net/events" title="OSC源创会"><img src="./osc_files/logo.png" border="0" alt="OSC源创会"></a>
+        </div>
+        <div id="weixin" style="margin-top: 10px;text-align: center;">
+            <a href="http://www.oschina.net/gdjug" target="_blank"><img src="./osc_files/111924_i4x6_179699.jpg" title="广东JUG"></a>
+        </div>
+        <div id="appDownload" style="margin-bottom: 20px;">
+            <a href="http://www.oschina.net/app" target="_blank" class="appDownload_android" title="Android"></a>
+            <a href="http://www.oschina.net/app" target="_blank" class="appDownload_ios" title="iPhone"></a>
+            <a href="http://www.oschina.net/app" target="_blank" class="appDownload_wp" title="Windows Phone"></a>
+        </div>
+        <div id="weixin" style="margin-top: 10px;text-align: center;">
+            <a href="http://my.oschina.net/kone/blog/119137" target="_blank"><img src="./osc_files/160442_8Fw6_179699.png" title="OSC微信二维码"></a>
+
+            <p>扫一扫，关注OSChina微信公共账号</p>
+        </div>
+
+    
+    </td>
+</tr>
+</tbody></table>
+<div id="OSC_Links">
+    ﻿<div id="links" class="bmodule">
+<h3 class="caption">+ 友情链接</h3>
+<p>
+<a href="http://www.oschina.net/openapi" target="_blank" title="开源中国开放 API">OpenAPI</a>
+<a href="http://zb.oschina.net/" target="_blank" style="color:#A00;">众包平台</a>
+<a href="http://git.oschina.net/" target="_blank" style="color:#A00;">代码托管</a>
+<a href="http://runjs.cn/" target="_blank" style="color:#A00;">RunJS</a>
+<a href="http://click.aliyun.com/m/1166/" target="_blank">阿里云</a>
+<a href="http://www.jpush.cn/" target="_blank">JPush极光推送</a>
+<a href="http://www.alauda.cn/" target="_blank" style="color:#A00;">灵雀云</a>
+<a href="http://wex5.com/cn/wex5/" target="_blank">WeX5跨端开源框架</a>
+<a href="http://netease.im/" target="_blank">网易云信</a>
+<a href="http://www.tingyun.com/" target="_blank">听云</a>
+<a href="http://www.ctocio.com/" target="_blank">IT经理网</a>
+<a href="http://www.huxiu.com/" target="_blank">虎嗅网</a>
+<a href="http://www.cyz.org.cn/" target="_blank">创业者</a>
+<a href="http://www.leiphone.com/" target="_blank">智能硬件</a>
+<a href="http://www.9miao.com/" target="_blank">9秒社团</a>
+<a href="http://os.51cto.com/" target="_blank">51CTO</a>
+<a href="http://bbs.51cto.com/" target="_blank">51CTO技术论坛</a>
+<a href="http://blog.nosqlfan.com/" target="_blank">NoSQLFan</a>
+<a href="http://www.hostucan.cn/" target="_blank" title="主机点评网">主机点评网</a>
+<a href="http://www.php100.com/" target="_blank">PHP100中文网</a>
+<a href="http://www.lupaworld.com/" target="_blank">LUPA开源社区</a>
+<a href="http://www.ltesting.net/" target="_blank">领测软件测试网</a>
+<a href="http://huihoo.org/" target="_blank">灰狐动力</a>
+<a href="http://www.chinaitlab.com/" target="_blank">中国IT实验室</a>
+<a href="http://www.osphp.com.cn/" target="_blank">php源码网</a>
+<a href="http://www.embeddedlinux.org.cn/" target="_blank">嵌入式Linux中文站</a>
+<a href="http://www.phpfans.net/" target="_blank">PHP爱好者</a>
+<a href="http://www.mscto.com/" target="_blank">软件开发网</a>
+<a href="http://www.linuxsky.org/" target="_blank">Linux天空</a>
+<a href="http://www.linuxtone.org/" target="_blank">IT运维专家网</a>
+<a href="http://www.linux521.com/" target="_blank" title="Linux系统中文网">Linux系统中文网</a>
+<a href="http://linux.ubuntu.org.cn/" target="_blank" title="Linux网站导航">Linux网站导航</a>
+<a href="http://www.foreveross.com/" target="_blank" title="恒拓开源" style="color:#A00;">恒拓开源</a>
+<a href="http://www.magentochina.org/" target="_blank" title="Magento中文互助网">Magento中文互助网</a>
+<a href="http://www.apkbus.com/" target="_blank" title="安卓巴士">安卓巴士</a>
+<a href="http://www.qiniu.com/" target="_blank" title="七牛云存储">七牛云存储</a>
+<a href="http://www.polyv.net/" target="_blank" title="保利威视云视频">保利威视云视频</a>
+<a href="http://www.ucloud.cn/" target="_blank">UCloud云主机</a>
+<a href="http://anquan.baidu.com/bbs/index/" target="_blank">百度卫士</a>
+<a href="http://www.html5cn.org/" target="_blank">HTML5 中国</a>
+<a href="http://www.phpthinking.com/" target="_blank">PHP开发学习门户</a>
+<a href="http://www.sequoiadb.com/" target="_blank">SequoiaDB</a>
+<a href="https://www.upyun.com/index.html?md=osc" target="_blank">UPYUN（又拍云）</a>
+<a href="http://www.rongcloud.cn/" target="_blank">融云即时通讯云</a>
+<a href="http://www.appcan.cn/" target="_blank">AppCan</a>
+<a href="http://www.getui.com/" target="_blank">个推推送</a>
+<a href="http://www.jiankongbao.com/" target="_blank">监控宝</a>
+<a href="http://www.segmentfault.com/" target="_blank">segmentfault</a>
+<a href="http://www.lizhi.fm/" target="_blank">荔枝FM</a>
+<a href="http://www.ctyun.cn/?r=kaiyuan" target="_blank">天翼云</a>
+<a href="http://developer.huawei.com/cn/consumer/" target="_blank">华为开发者联盟</a>
+<a href="http://www.linuxstory.org/" target="_blank">Linux Story</a>
+<a href="http://www.51idc.com/" target="_blank">51IDC</a>
+<a href="http://bbs.egret.com/forum.php" target="_blank">Egret社区</a>
+<a href="http://www.apicloud.com/" target="_blank">APICloud</a>
+<a href="http://gold.xitu.io/#/" target="_blank">稀土掘金</a>
+</p>
+</div></div>
+<script type="text/javascript">
+    <!--
+                var g_last_id = 8914430;
+            $(document).ready(function () {
+        timer(check_new_log, 20000);
+        $('#IndustryNews .more .pages a').hover(
+                function () {
+                    $('#IndustryNews .more .pages a').removeClass('on');
+                    $(this).addClass('on');
+                    $('#IndustryNews ul').hide();
+                    var cp = $(this).attr('page');
+                    $('#IndustryNews ul.p' + cp).show();
+                },
+                function () {
+                }
+        );
+        $('#ProjectNews .more .pages a').hover(
+                function () {
+                    $('#ProjectNews .more .pages a').removeClass('on');
+                    $(this).addClass('on');
+                    $('#ProjectNews ul').hide();
+                    var cp = $(this).attr('page');
+                    $('#ProjectNews ul.p' + cp).show();
+                },
+                function () {
+                }
+        );
+        $('#jobs_area .pages a').hover(
+                function () {
+                    $('#jobs_area .pages a').removeClass('on');
+                    $(this).addClass('on');
+                    $('#HomeJobTopicPanel table').hide();
+                    var cp = $(this).attr('page');
+                    $('#HomeJobTopicPanel table#job_list_' + cp).show();
+                },
+                function () {
+                }
+        );
+        $('#questions_area .pages a').hover(
+                function () {
+                    $('#questions_area .pages a').removeClass('on');
+                    $(this).addClass('on');
+                    $('#HomeTopicPanel table').hide();
+                    var cp = $(this).attr('page');
+                    $('#HomeTopicPanel table#q_list_' + cp).show();
+                },
+                function () {
+                }
+        );
+    });
+    function check_new_log() {
+        var url = "/widgets/check-top-log?last=" + g_last_id;
+        ajax_get(url, function (result) {
+            if (result.replace(/^\s+|\s+$/g, '').length == 0) {
+                return;
+            }
+            var logs = $(result).siblings();
+            var log_count = logs.size();
+            var first = $(result).first();
+            if (log_count == 0 && first != null && first.length > 0)
+                log_count = 1;
+            if (log_count > 0) {
+                g_last_id = first.attr("log");
+                //g_last_id = logs.first().attr('log');
+                //删除多出来的元素
+                if (log_count == 5)
+                    $('.TopTweets').empty();
+                else
+                    $('.TopTweets li').eq(5 - 1 - log_count).nextAll().remove();
+                $('.TopTweets').prepend(result);
+            }
+        });
+    }
+    /**
+     * 使用ajax获取数据
+     */
+    function ajax_get(the_url, succ_callback) {
+        jQuery.ajax({
+            type: 'GET',
+            cache: true,
+            url: the_url,
+            success: succ_callback,
+            error: function (html) {
+            }
+        });
+    }
+
+    //-->
+</script>
+
+
+
+<script>
+    $(function () {
+        scrolltotop.init();
+    });
+</script>
+
+
+<!--点赞代码js脚本 start-->
+<script>
+    //点赞脚本，用于获取当前用户对某条说说点赞的操作
+    function makeAsLove(obj) {
+
+        var _this = $(obj);
+        var _hc = _this.hasClass('fa-thumbs-o-up');
+
+        var _enable = _this.attr('data-click');
+        if (_enable != undefined && 'dis' === _enable) {
+            return;
+        }
+
+
+        var makeAsLoveId = $(obj).attr("id");//获取当前动态赞按钮的ID
+        var temp = makeAsLoveId.split("_");
+        var area = temp[0];//点赞的区域，(动态列表还是Top10)
+        var logid = temp[1];
+        var ownerOfLog = temp[2];
+        var current_love_count = $("#" + area + "_love_" + logid + "_hidden").val();
+        var clickCount = $("#" + area + "_love_" + logid + "_clickCount").val();
+        var id = logid;
+        var user_code = $("#" + area + "_love_" + logid + "_user_code").val();
+
+
+        _this.animate({
+            'font-size': '20px'
+        }, 150, function () {
+            _this.attr('data-click', 'dis');
+            setTimeout(function () {
+                _this.attr('data-click', 'enable');
+            }, 1000);
+            setTimeout(function () {
+                if (_hc) {
+                    _this.removeClass('fa-thumbs-o-up');
+                    _this.addClass('fa-thumbs-up');
+                } else {
+                    _this.removeClass('fa-thumbs-up');
+                    _this.addClass('fa-thumbs-o-up');
+                }
+                _this.css({
+                    'font-size': '14px'
+                });
+
+                $.ajax({
+                    url: "/action/tweet/makeAsLove",
+                    type: "POST",
+                    data: {
+                        user_code: user_code,
+                        logid: logid,
+                        current_love_count: current_love_count,
+                        id: id,
+                        clickCount: clickCount,
+                        ownerOfLog: ownerOfLog
+                    },
+                    success: function (result) {
+                        var dataResult = jQuery.parseJSON(result)
+                        var resultCode = dataResult.code;
+                        $("#" + area + "_love_" + logid + "_clickCount").val(parseInt(dataResult.clickCount));
+                        if (resultCode == "200") {
+
+                            var love = dataResult.love_count;
+                            var countOfLove = parseInt(love);
+                            $("#" + area + "_love_" + logid).text(countOfLove);
+                            $("#" + area + "_love_" + logid + "_hidden").val(countOfLove);
+                            /*  $("#" + makeAsLoveId).attr("class", "loved");*/
+                            return;
+                        }
+
+                        if (resultCode == "201") {
+                            var love = dataResult.love_count;
+                            var countOfLove = parseInt(love);
+                            $("#" + area + "_love_" + logid).text(countOfLove);
+                            $("#" + area + "_love_" + logid + "_hidden").val(countOfLove);
+                            return;
+                        }
+                        $("#" + makeAsLoveId).attr("class", "fa fa-thumbs-o-up");
+                        $("#" + area + "_info_" + logid).text(dataResult.result);
+                        setTimeout(function () {
+                            $("#" + area + "_info_" + logid).text("");
+                        }, 3000);
+                    }
+                });
+
+            }, 400);
+
+        });
+    }
+</script>
+<!--点赞代码js脚本 end-->
+<div class="clear"></div></div>
+    <div id="OSC_Footer" class="CenterDiv"><style>
+.oscapp {text-align:left; width:220px;}
+.oscapp span {float:left;width:140px;}
+.oscapp a {float:left;text-indent:-9999em;width:16px;margin-left:8px;}
+.oscapp a.android {background:url('/img/android.gif') no-repeat left center;}
+.oscapp a.iphone {background:url('/img/iphone.gif') no-repeat left center;}
+.oscapp a.wp7 {background:url('/img/wp7.gif') no-repeat left center;}
+</style>
+<table width="100%"><tbody><tr>
+<td align="left">© 开源中国(OSChina.NET) | <a href="http://www.oschina.net/home/aboutosc">关于我们</a> | <a href="mailto:market@oschina.cn">广告联系</a> | <a href="http://weibo.com/oschina2010" target="_blank">@新浪微博</a> | <a href="http://m.oschina.net/">开源中国手机版</a> | <a href="http://www.miitbeian.gov.cn/" target="_blank" style="color:#737573;text-decoration:none;">粤ICP备12009483号-3</a></td>
+<td class="oscapp">
+    <span>开源中国手机客户端：</span>
+    <a href="http://www.oschina.net/app" class="android" title="Android客户端">Android</a>
+    <a href="http://www.oschina.net/app" class="iphone" title="iPhone 客户端">iPhone</a>
+    <a href="http://www.oschina.net/app" class="wp7" title="Windows Phone 客户端">WP7</a>
+</td>
+</tr>
+<tr>
+<td colspan="2" align="left">开源中国社区(OSChina.net)是工信部 <a href="http://www.copu.org.cn/" target="_blank">开源软件推进联盟</a> 指定的官方社区</td>
+</tr>
+</tbody></table>
+<script type="text/javascript">
+<!--
+if (top.location != self.location)top.location=self.location;
+//-->
+</script></div>
+</div>
+
+
+<!-- Generated by OsChina.NET (init:4[ms],page:70[ms],ip:106.168.218.141) --><div id="fancybox-tmp"></div><div id="fancybox-loading"><div></div></div><div id="fancybox-overlay"></div><div id="fancybox-wrap"><div id="fancybox-outer"><div class="fancybox-bg" id="fancybox-bg-n"></div><div class="fancybox-bg" id="fancybox-bg-ne"></div><div class="fancybox-bg" id="fancybox-bg-e"></div><div class="fancybox-bg" id="fancybox-bg-se"></div><div class="fancybox-bg" id="fancybox-bg-s"></div><div class="fancybox-bg" id="fancybox-bg-sw"></div><div class="fancybox-bg" id="fancybox-bg-w"></div><div class="fancybox-bg" id="fancybox-bg-nw"></div><div id="fancybox-content"></div><a id="fancybox-close"></a><div id="fancybox-title"></div><a href="javascript:;" id="fancybox-left"><span class="fancy-ico" id="fancybox-left-ico"></span></a><a href="javascript:;" id="fancybox-right"><span class="fancy-ico" id="fancybox-right-ico"></span></a></div></div><div id="topcontrol" title="回到顶部" style="position: fixed; bottom: 165px; right: 100px; cursor: pointer; display: none;"><img src="./osc_files/gotop.gif" style="width:31px; height:31px;"></div><div id="UMS_TOOLTIP" style="position: absolute; cursor: pointer; z-index: 2147483647; top: -100000px; left: -100000px; background: transparent;"></div></body><umsdataelement id="UMSSendDataEventElement" data="http://www.oschina.net/news/73361/git-11-bitkeeper" docguid="null"></umsdataelement></html>

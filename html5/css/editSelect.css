@@ -1,0 +1,211 @@
+
+input.editSelect1 {
+background: url(../images/main/sbg.png) right center no-repeat #fff; height:28px; line-height:28px;
+border:1px #eeeeee solid;border-left:4px #f27441 solid; border-radius:4px; 
+padding:0px 20px 0px 10px; outline:none; z-index:100; position:relative;
+}
+
+input.editSelect1:focus { border:1px #f27441 solid; background: url(../images/main/sbg.png)  right no-repeat #fff; border-left:4px #f27441 solid;}
+
+select.editSelect1{
+ border-left:4px #f27441 solid;
+ border:1px #f27441 solid;
+ border-radius:4px; padding:0px 0px 0px 0px; outline:none; z-index:999; position:relative;
+ font-size:14px;
+ font-family:"Microsoft YaHei";
+ cursor:pointer; 
+ color:#666;
+}
+
+div.editSelect1{
+    position: absolute;
+}
+
+input.editSelect2 {
+background: url(../images/main/sbg.png) right center no-repeat #fff; height:28px; line-height:28px;
+border:1px #eeeeee solid;border-left:4px #30af84 solid; 
+border-radius:4px; padding:0px 20px 0px 10px; outline:none; z-index:100; position:relative;
+}
+
+input.editSelect2:focus { border:1px #30af84 solid; background: url(../images/main/sbg.png)  right center no-repeat #fff; border-left:4px #30af84 solid;}
+
+select.editSelect2{
+ border-left:4px #30af84 solid;
+ border:1px #30af84 solid;
+ border-radius:4px; padding:0px 0px 0px 0px; outline:none; z-index:999; position:relative;
+ font-size:14px;
+ font-family:"Microsoft YaHei";
+ cursor:pointer; 
+ color:#666;
+}
+div.editSelect2{
+    position: absolute;
+}
+
+input.editSelect3 {
+background: url(../images/main/sbg.png) right center no-repeat #fff; height:28px; line-height:28px; 
+border:1px #eeeeee solid;border-left:4px #53a9e1 solid;
+border-radius:4px; padding:0px 20px 0px 10px; outline:none; z-index:100; position:relative;
+}
+input.editSelect3:focus { border:1px #53a9e1 solid; background: url(../images/main/sbg.png)  right center no-repeat #fff; border-left:4px #53a9e1 solid;}
+
+select.editSelect3{
+ border-left:4px #53a9e1 solid;
+ border:1px #53a9e1 solid;
+ border-radius:4px; padding:0px 0px 0px 0px; outline:none; z-index:999; position:relative;
+ font-size:14px;
+ font-family:"Microsoft YaHei";
+ cursor:pointer; 
+ color:#666;
+}
+div.editSelect3{
+    position: absolute;
+}
+
+input.editSelect4 {
+background: url(../images/main/sbg.png) right center no-repeat #fff; height:28px; line-height:28px; border:1px #eeeeee solid;
+border-left:4px #f3e03c solid; border-radius:4px; padding:0px 20px 0px 10px; outline:none; z-index:100; position:relative;
+}
+input.editSelect4:focus { border:1px #f3e03c solid; background: url(../images/main/sbg.png)  right center no-repeat #fff; border-left:4px #f3e03c solid;}
+
+select.editSelect4{
+ border-left:4px #f3e03c solid;
+ border:1px #f3e03c solid;
+ border-radius:4px; padding:0px 0px 0px 0px; outline:none; z-index:999; position:relative;
+ font-size:14px;
+ font-family:"Microsoft YaHei";
+ cursor:pointer; 
+ color:#666;
+}
+div.editSelect4{
+    position: absolute;
+}
+
+
+input.editSelect1-IE8 {
+background: url(../images/main/sbg.png) right center no-repeat #fff; height:28px; line-height:28px; 
+border:1px #eeeeee solid;border-left:4px #f27441 solid; border-radius:4px; 
+padding:0px 20px 0px 10px; outline:none; z-index:100; position:relative;    
+
+}
+input.editSelect1-IE8-focus { 
+border:1px #f27441 solid; 
+background: url(../images/main/sbg.png)  right  center no-repeat #fff;height:28px; line-height:28px; 
+border-left:4px #f27441 solid;border-radius:4px; 
+padding:0px 20px 0px 10px; outline:none; z-index:100; position:relative;
+}
+
+select.editSelect1-IE8{
+ border-left:4px #f27441 solid;
+ border:1px #eeeeee solid;
+ border-radius:4px;padding:0px 0px 0px 0px; outline:none; z-index:999; position:relative;
+ font-size:14px;
+ font-family:"Microsoft YaHei";
+ cursor:pointer; 
+ color:#666;
+}
+
+div.editSelect1-IE8{
+  position:absolute;
+    z-index:101;
+}
+
+div.editSelect1-IE8-focus{
+  position:absolute;
+    z-index:101;
+    border:1px #f27441 solid;
+}
+
+input.editSelect2-IE8 {
+background: url(../images/main/sbg.png) right center no-repeat #fff; height:28px; line-height:28px;
+ border:1px #eeeeee solid;border-left:4px #30af84 solid; border-radius:4px; padding:0px 20px 0px 10px; outline:none; z-index:100; position:relative;
+}
+input.editSelect2-IE8-focus { 
+border:1px #30af84 solid; 
+background: url(../images/main/sbg.png)  right  center no-repeat #fff;height:28px; line-height:28px; 
+border-left:4px #30af84 solid;border-radius:4px; 
+padding:0px 20px 0px 10px; outline:none; z-index:100; position:relative;
+}
+
+select.editSelect2-IE8{
+ border-left:4px #30af84 solid;
+ border:1px #eeeeee solid;
+ border-radius:4px; padding:0px 0px 0px 0px; outline:none; z-index:999; position:relative;
+ font-size:14px;
+ font-family:"Microsoft YaHei";
+ cursor:pointer; 
+ color:#666;
+}
+div.editSelect2-IE8{
+  position:absolute;
+    z-index:101;
+}
+
+div.editSelect2-IE8-focus{
+  position:absolute;
+    z-index:101;
+    border:1px #30af84 solid;
+}
+
+input.editSelect3-IE8 {
+ background: url(../images/main/sbg.png) right center no-repeat #fff; height:28px; line-height:28px;
+ border:1px #eeeeee solid;border-left:4px #53a9e1 solid; border-radius:4px; padding:0px 20px 0px 10px; outline:none; z-index:100; position:relative;
+}
+input.editSelect3-IE8-focus { 
+border:1px #53a9e1 solid; 
+background: url(../images/main/sbg.png)  right  center no-repeat #fff;height:28px; line-height:28px;
+border-left:4px #53a9e1 solid;border-radius:4px; 
+padding:0px 20px 0px 10px; outline:none; z-index:100; position:relative;
+}
+
+select.editSelect3-IE8{
+ border-left:4px #53a9e1 solid;
+ border:1px #eeeeee solid;
+ border-radius:4px; padding:0px 0px 0px 0px; outline:none; z-index:999; position:relative;
+ font-size:14px;
+ font-family:"Microsoft YaHei";
+ cursor:pointer; 
+ color:#666;
+}
+div.editSelect3-IE8{
+  position:absolute;
+    z-index:101;
+}
+
+div.editSelect3-IE8-focus{
+  position:absolute;
+    z-index:101;
+    border:1px #53a9e1 solid;
+}
+
+input.editSelect4-IE8 {
+background: url(../images/main/sbg.png) right center no-repeat #fff; height:28px; line-height:28px;
+border:1px #eeeeee solid;border-left:4px #f3e03c solid; border-radius:4px; padding:0px 20px 0px 10px; outline:none; z-index:100; position:relative;
+}
+input.editSelect4-IE8-focus { 
+border:1px #f3e03c solid; 
+background: url(../images/main/sbg.png)  right  center no-repeat #fff; height:28px; line-height:28px;
+border-left:4px #f3e03c solid;border-radius:4px; 
+padding:0px 20px 0px 10px; outline:none; z-index:100; position:relative;
+}
+
+select.editSelect4-IE8{
+ border-left:4px #f3e03c solid;
+ border:1px #eeeeee solid;
+ border-radius:4px; padding:0px 0px 0px 0px; outline:none; z-index:999; position:relative;
+ font-size:14px;
+ font-family:"Microsoft YaHei";
+ cursor:pointer; 
+ color:#666;
+}
+div.editSelect4-IE8{
+  position:absolute;
+    z-index:101;
+}
+
+div.editSelect4-IE8-focus{
+  position:absolute;
+    z-index:101;
+    border:1px #f3e03c solid;
+}
+
